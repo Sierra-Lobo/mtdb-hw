@@ -481,16 +481,52 @@
       "X Driver"
     ],
     [
-      "ce7cfdbd-224e-4401-9540-10a912aa0ee1",
+      "0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357",
       "Y Driver"
     ],
     [
-      "4f8b6b8f-d365-4e05-a96e-2bbd000a1641",
-      "Z Driver"
+      "dea71222-8b08-4946-a125-b539fb992320",
+      "H-Bridge 1"
     ],
     [
       "0b2ade16-2e66-40b3-a5ca-aae3c5ec3394",
       "Control"
+    ],
+    [
+      "765443f8-c18e-4cd2-97d5-a5c0f8a3785d",
+      "Current Feedback 1"
+    ],
+    [
+      "765443f8-c18e-4cd2-97d5-a5c0f8a3785d",
+      "Current Feedback 1"
+    ],
+    [
+      "5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0",
+      "Adjustable Buck Regulator 1"
+    ],
+    [
+      "853a01c4-0f0d-42ee-a9e8-050403071668",
+      "Z Driver"
+    ],
+    [
+      "5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0",
+      "Adjustable Buck Regulator 1"
+    ],
+    [
+      "765443f8-c18e-4cd2-97d5-a5c0f8a3785d",
+      "Current Feedback 1"
+    ],
+    [
+      "dea71222-8b08-4946-a125-b539fb992320",
+      "H-Bridge 1"
+    ],
+    [
+      "dea71222-8b08-4946-a125-b539fb992320",
+      "H-Bridge 1"
+    ],
+    [
+      "5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0",
+      "Adjustable Buck Regulator 1"
     ]
   ],
   "text_variables": {}
