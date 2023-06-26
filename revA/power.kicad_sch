@@ -5019,9 +5019,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30125.pdf" (at 90.17 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid 814bf36e-86e1-4f01-a368-2d3e5795a1b3))
-    (pin "4" (uuid 7846576d-e762-4cfc-aaa4-3db9d2982e1b))
-    (pin "5" (uuid 21fb697f-c491-4595-8db7-a4f2c7dbe59f))
+    (pin "3" (uuid 814bf36e-86e1-4f01-a368-2d3e5795a1b4))
+    (pin "4" (uuid 7846576d-e762-4cfc-aaa4-3db9d2982e1c))
+    (pin "5" (uuid 21fb697f-c491-4595-8db7-a4f2c7dbe5a0))
     (pin "1" (uuid ed3ef783-2300-417c-8a12-0e27e0a40bcf))
     (pin "2" (uuid c443be39-5774-4efc-a2f1-a301bf7ef773))
     (pin "6" (uuid 6c493d6e-d9e2-4d39-b7d8-61807c63cf92))
@@ -5134,9 +5134,9 @@
     (pin "3" (uuid 27ad38d4-b521-47e8-8871-0fa73eb23f30))
     (pin "4" (uuid 04b4dc17-b162-48fc-b8d8-b0c27a2c8fe0))
     (pin "5" (uuid 65260ecc-151d-4a96-a3a9-4c0968ebb656))
-    (pin "1" (uuid 580a2e8b-e4bc-47a9-a1cd-6b692f8b9804))
-    (pin "2" (uuid 16df098f-60c9-4183-9920-6452af1b4510))
-    (pin "6" (uuid 4ff84e69-99f9-45b4-afbe-2ec456d976c2))
+    (pin "1" (uuid 580a2e8b-e4bc-47a9-a1cd-6b692f8b9805))
+    (pin "2" (uuid 16df098f-60c9-4183-9920-6452af1b4511))
+    (pin "6" (uuid 4ff84e69-99f9-45b4-afbe-2ec456d976c3))
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
@@ -5472,9 +5472,9 @@
     (pin "3" (uuid 33f8a248-5912-43ae-9811-c3464d728629))
     (pin "4" (uuid 3ec77cec-33fe-470b-b314-a1f327f6eea3))
     (pin "5" (uuid 6f336f3a-2b88-4a3e-a44e-e243c4b30cf5))
-    (pin "1" (uuid 580a2e8b-e4bc-47a9-a1cd-6b692f8b9804))
-    (pin "2" (uuid 16df098f-60c9-4183-9920-6452af1b4510))
-    (pin "6" (uuid 4ff84e69-99f9-45b4-afbe-2ec456d976c2))
+    (pin "1" (uuid 580a2e8b-e4bc-47a9-a1cd-6b692f8b9806))
+    (pin "2" (uuid 16df098f-60c9-4183-9920-6452af1b4512))
+    (pin "6" (uuid 4ff84e69-99f9-45b4-afbe-2ec456d976c4))
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
@@ -6083,9 +6083,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30125.pdf" (at 123.19 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid 814bf36e-86e1-4f01-a368-2d3e5795a1b3))
-    (pin "4" (uuid 7846576d-e762-4cfc-aaa4-3db9d2982e1b))
-    (pin "5" (uuid 21fb697f-c491-4595-8db7-a4f2c7dbe59f))
+    (pin "3" (uuid 814bf36e-86e1-4f01-a368-2d3e5795a1b5))
+    (pin "4" (uuid 7846576d-e762-4cfc-aaa4-3db9d2982e1d))
+    (pin "5" (uuid 21fb697f-c491-4595-8db7-a4f2c7dbe5a1))
     (pin "1" (uuid 118d556f-ce3f-4528-a575-378c0dbbad1b))
     (pin "2" (uuid ff58a171-03a7-4031-8d7a-ed89e3ef24e1))
     (pin "6" (uuid 74aeac5b-83a3-4df4-b51d-0324a594b742))

@@ -424,7 +424,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 190.5 149.86 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f9b8efe-36a8-4dfd-b117-d02b44a03ec2)
     (property "Reference" "C24" (at 187.579 148.9515 0)
       (effects (font (size 1.27 1.27)) (justify left))
