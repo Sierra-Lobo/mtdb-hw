@@ -445,7 +445,7 @@
     (property "Value" "1k" (at 217.17 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 213.614 138.684 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.614 138.684 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 139.7 0)
@@ -459,13 +459,13 @@
           (reference "R22") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R33") (unit 1)
+          (reference "R63") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R22") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R81") (unit 1)
+          (reference "R67") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -485,7 +485,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 167.64 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0df0b34b-a4c5-4b85-84d6-d51faa433935)
-    (property "Reference" "#PWR048" (at 167.64 130.81 0)
+    (property "Reference" "#PWR0127" (at 167.64 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 167.64 123.19 0)
@@ -501,13 +501,13 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -522,7 +522,7 @@
     (property "Value" "0.1uF" (at 170.561 132.6766 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 168.6052 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 168.6052 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 167.64 130.81 0)
@@ -545,13 +545,13 @@
           (reference "C22") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "C20") (unit 1)
+          (reference "C57") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "C21") (unit 1)
+          (reference "C11") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "C88") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -577,7 +577,7 @@
     (property "Value" "1k" (at 217.17 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 213.614 136.144 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.614 136.144 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 137.16 0)
@@ -591,13 +591,13 @@
           (reference "R20") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R27") (unit 1)
+          (reference "R62") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R20") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R41") (unit 1)
+          (reference "R66") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -623,7 +623,7 @@
     (property "Value" "1k" (at 217.17 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 213.614 133.604 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 213.614 133.604 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 134.62 0)
@@ -637,13 +637,13 @@
           (reference "R19") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R26") (unit 1)
+          (reference "R61") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R17") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R40") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -669,7 +669,7 @@
     (property "Value" "100k" (at 193.04 140.335 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 189.484 138.176 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 189.484 138.176 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 138.43 0)
@@ -692,13 +692,13 @@
           (reference "R21") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R32") (unit 1)
+          (reference "R60") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R21") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R80") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -737,13 +737,13 @@
           (reference "#PWR032") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -782,13 +782,13 @@
           (reference "#PWR032") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -827,13 +827,13 @@
           (reference "#PWR031") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -889,13 +889,13 @@
           (reference "U6") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "U5") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "U12") (unit 1)
+          (reference "U19") (unit 1)
         )
       )
       (project "payload-interface-board"

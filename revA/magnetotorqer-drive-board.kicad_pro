@@ -431,7 +431,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KICAD7_SLI_LIBS}/templates/sli_b_non_prop.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -519,6 +519,10 @@
     [
       "dea71222-8b08-4946-a125-b539fb992320",
       "H-Bridge 1"
+    ],
+    [
+      "82f4e623-91fc-4ebc-ad45-559ce6470877",
+      "Power"
     ],
     [
       "5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0",
