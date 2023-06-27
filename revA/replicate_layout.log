@@ -1,0 +1,63 @@
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.1
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x000002A0FB119EE0>
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with R8 as a reference
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'R8'
+Located on: ['X Driver']
+With filenames: ['driver.kicad_sch']
+With sheet_id:['X Driver']
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('R9', ['Y Driver']), ('R46', ['Z Driver']), ('R8', ['X Driver'])]
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'X Driver', file:'driver.kicad_sch'
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Y Driver'], ['Z Driver']]
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['X Driver']
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(-37, 80)
+06-26 20:09:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(-399, 80)
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'X Driver', file:'driver.kicad_sch'
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Y Driver'], ['Z Driver']]
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['Y Driver'], ['Z Driver']]
+on level: ['X Driver']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+06-26 20:09:54 root 340:updating GUI message: 'Preparing for replication'
+06-26 20:09:54 root 345:updating GUI with: 0
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+06-26 20:09:54 root 345:updating GUI with: 66
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+06-26 20:09:54 root 340:updating GUI message: 'Replicating footprints'
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Y Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Z Driver']
+06-26 20:09:54 root 345:updating GUI with: 59
+06-26 20:09:54 root 340:updating GUI message: 'Replicating tracks'
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Y Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Y Driver'] :[('/X Driver/OUT1_SEN', '/Y Driver/OUT1_SEN'), ('+3V3A', '+3V3A'), ('/X Driver/VDRV', '/Y Driver/VDRV'), ('/X Driver/Adjustable Buck Regulator 1/INTVCC', '/Y Driver/Adjustable Buck Regulator 1/INTVCC'), ('GND', 'GND'), ('+1V65A', '+1V65A'), ('Net-(U15-~{SYNC})', 'Net-(U12-~{SYNC})'), ('+5VA', '+5VA'), ('Net-(U15-SCK)', 'Net-(U12-SCK)'), ('/X Driver/Adjustable Buck Regulator 1/SW', '/Y Driver/Adjustable Buck Regulator 1/SW'), ('/~{X_SYNC}', '/~{Y_SYNC}'), ('Net-(U14-DIN)', 'Net-(U11-DIN)'), ('Net-(R103-Pad2)', 'Net-(R102-Pad2)'), ('/~{X_HB_SLEEP}', '/~{Y_HB_SLEEP}'), ('/X_VRSEN', '/Y_VRSEN'), ('/X_HB_PH', '/Y_HB_PH'), ('/MOSI', '/MOSI'), ('Net-(U16-PGOOD)', 'Net-(U13-PGOOD)'), ('+3V3D', '+3V3D'), ('Net-(U18-EN)', 'Net-(U5-EN)'), ('Net-(U14-~{SYNC})', 'Net-(U11-~{SYNC})'), ('Net-(U15-DIN)', 'Net-(U12-DIN)'), ('Net-(U14-SCK)', 'Net-(U11-SCK)'), ('/X-', '/Y-'), ('/X_REG_EN', '/Y_REG_EN'), ('/X Driver/Adjustable Buck Regulator 1/VSET', '/Y Driver/Adjustable Buck Regulator 1/VSET'), ('/X Driver/Adjustable Buck Regulator 1/DAC_VOUT', '/Y Driver/Adjustable Buck Regulator 1/DAC_VOUT'), ('Net-(U18-PH)', 'Net-(U5-PH)'), ('VAA', 'VAA'), ('/X Driver/Adjustable Buck Regulator 1/BST', '/Y Driver/Adjustable Buck Regulator 1/BST'), ('/SCK', '/SCK'), ('Net-(U18-~{SLEEP})', 'Net-(U5-~{SLEEP})'), ('/X Driver/Adjustable Buck Regulator 1/DPOT_IN', '/Y Driver/Adjustable Buck Regulator 1/DPOT_IN'), ('/X_PH_EN', '/Y_PH_EN'), ('Net-(U15-EXT_CAP)', 'Net-(U12-EXT_CAP)'), ('', ''), ('Net-(U15-SDO)', 'Net-(U12-SDO)'), ('/X+', '/Y+')]
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Z Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Z Driver'] :[('Net-(U16-PGOOD)', 'Net-(U27-PGOOD)'), ('/X Driver/Adjustable Buck Regulator 1/BST', '/Z Driver/Adjustable Buck Regulator 1/BST'), ('Net-(U15-SDO)', 'Net-(U26-SDO)'), ('+3V3A', '+3V3A'), ('/X Driver/Adjustable Buck Regulator 1/DAC_VOUT', '/Z Driver/Adjustable Buck Regulator 1/DAC_VOUT'), ('/X_REG_EN', '/Z_REG_EN'), ('Net-(R103-Pad2)', 'Net-(R104-Pad2)'), ('GND', 'GND'), ('+1V65A', '+1V65A'), ('Net-(U18-EN)', 'Net-(U19-EN)'), ('+5VA', '+5VA'), ('Net-(U15-~{SYNC})', 'Net-(U26-~{SYNC})'), ('/~{X_SYNC}', '/~{Z_SYNC}'), ('/X_VRSEN', '/Z_VRSEN'), ('/X Driver/OUT1_SEN', '/Z Driver/OUT1_SEN'), ('/X Driver/Adjustable Buck Regulator 1/INTVCC', '/Z Driver/Adjustable Buck Regulator 1/INTVCC'), ('/X-', '/Z-'), ('/X Driver/Adjustable Buck Regulator 1/VSET', '/Z Driver/Adjustable Buck Regulator 1/VSET'), ('/MOSI', '/MOSI'), ('Net-(U14-SCK)', 'Net-(U25-SCK)'), ('Net-(U14-~{SYNC})', 'Net-(U25-~{SYNC})'), ('/X_HB_PH', '/Z_HB_PH'), ('+3V3D', '+3V3D'), ('Net-(U15-SCK)', 'Net-(U26-SCK)'), ('Net-(U18-~{SLEEP})', 'Net-(U19-~{SLEEP})'), ('Net-(U14-DIN)', 'Net-(U25-DIN)'), ('Net-(U15-DIN)', 'Net-(U26-DIN)'), ('/X_PH_EN', '/Z_PH_EN'), ('VAA', 'VAA'), ('/X Driver/Adjustable Buck Regulator 1/SW', '/Z Driver/Adjustable Buck Regulator 1/SW'), ('/SCK', '/SCK'), ('/X Driver/Adjustable Buck Regulator 1/DPOT_IN', '/Z Driver/Adjustable Buck Regulator 1/DPOT_IN'), ('', ''), ('Net-(U18-PH)', 'Net-(U19-PH)'), ('/X Driver/VDRV', '/Z Driver/VDRV'), ('/X+', '/Z+'), ('Net-(U15-EXT_CAP)', 'Net-(U26-EXT_CAP)'), ('/~{X_HB_SLEEP}', '/~{Z_HB_SLEEP}')]
+06-26 20:09:54 root 340:updating GUI message: 'Replicating zones'
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Y Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Y Driver'] :[('/X Driver/OUT1_SEN', '/Y Driver/OUT1_SEN'), ('+3V3A', '+3V3A'), ('/X Driver/VDRV', '/Y Driver/VDRV'), ('/X Driver/Adjustable Buck Regulator 1/INTVCC', '/Y Driver/Adjustable Buck Regulator 1/INTVCC'), ('GND', 'GND'), ('+1V65A', '+1V65A'), ('Net-(U15-~{SYNC})', 'Net-(U12-~{SYNC})'), ('+5VA', '+5VA'), ('Net-(U15-SCK)', 'Net-(U12-SCK)'), ('/X Driver/Adjustable Buck Regulator 1/SW', '/Y Driver/Adjustable Buck Regulator 1/SW'), ('/~{X_SYNC}', '/~{Y_SYNC}'), ('Net-(U14-DIN)', 'Net-(U11-DIN)'), ('Net-(R103-Pad2)', 'Net-(R102-Pad2)'), ('/~{X_HB_SLEEP}', '/~{Y_HB_SLEEP}'), ('/X_VRSEN', '/Y_VRSEN'), ('/X_HB_PH', '/Y_HB_PH'), ('/MOSI', '/MOSI'), ('Net-(U16-PGOOD)', 'Net-(U13-PGOOD)'), ('+3V3D', '+3V3D'), ('Net-(U18-EN)', 'Net-(U5-EN)'), ('Net-(U14-~{SYNC})', 'Net-(U11-~{SYNC})'), ('Net-(U15-DIN)', 'Net-(U12-DIN)'), ('Net-(U14-SCK)', 'Net-(U11-SCK)'), ('/X-', '/Y-'), ('/X_REG_EN', '/Y_REG_EN'), ('/X Driver/Adjustable Buck Regulator 1/VSET', '/Y Driver/Adjustable Buck Regulator 1/VSET'), ('/X Driver/Adjustable Buck Regulator 1/DAC_VOUT', '/Y Driver/Adjustable Buck Regulator 1/DAC_VOUT'), ('Net-(U18-PH)', 'Net-(U5-PH)'), ('VAA', 'VAA'), ('/X Driver/Adjustable Buck Regulator 1/BST', '/Y Driver/Adjustable Buck Regulator 1/BST'), ('/SCK', '/SCK'), ('Net-(U18-~{SLEEP})', 'Net-(U5-~{SLEEP})'), ('/X Driver/Adjustable Buck Regulator 1/DPOT_IN', '/Y Driver/Adjustable Buck Regulator 1/DPOT_IN'), ('/X_PH_EN', '/Y_PH_EN'), ('Net-(U15-EXT_CAP)', 'Net-(U12-EXT_CAP)'), ('', ''), ('Net-(U15-SDO)', 'Net-(U12-SDO)'), ('/X+', '/Y+')]
+06-26 20:09:54 root 345:updating GUI with: 50
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Z Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Z Driver'] :[('Net-(U16-PGOOD)', 'Net-(U27-PGOOD)'), ('/X Driver/Adjustable Buck Regulator 1/BST', '/Z Driver/Adjustable Buck Regulator 1/BST'), ('Net-(U15-SDO)', 'Net-(U26-SDO)'), ('+3V3A', '+3V3A'), ('/X Driver/Adjustable Buck Regulator 1/DAC_VOUT', '/Z Driver/Adjustable Buck Regulator 1/DAC_VOUT'), ('/X_REG_EN', '/Z_REG_EN'), ('Net-(R103-Pad2)', 'Net-(R104-Pad2)'), ('GND', 'GND'), ('+1V65A', '+1V65A'), ('Net-(U18-EN)', 'Net-(U19-EN)'), ('+5VA', '+5VA'), ('Net-(U15-~{SYNC})', 'Net-(U26-~{SYNC})'), ('/~{X_SYNC}', '/~{Z_SYNC}'), ('/X_VRSEN', '/Z_VRSEN'), ('/X Driver/OUT1_SEN', '/Z Driver/OUT1_SEN'), ('/X Driver/Adjustable Buck Regulator 1/INTVCC', '/Z Driver/Adjustable Buck Regulator 1/INTVCC'), ('/X-', '/Z-'), ('/X Driver/Adjustable Buck Regulator 1/VSET', '/Z Driver/Adjustable Buck Regulator 1/VSET'), ('/MOSI', '/MOSI'), ('Net-(U14-SCK)', 'Net-(U25-SCK)'), ('Net-(U14-~{SYNC})', 'Net-(U25-~{SYNC})'), ('/X_HB_PH', '/Z_HB_PH'), ('+3V3D', '+3V3D'), ('Net-(U15-SCK)', 'Net-(U26-SCK)'), ('Net-(U18-~{SLEEP})', 'Net-(U19-~{SLEEP})'), ('Net-(U14-DIN)', 'Net-(U25-DIN)'), ('Net-(U15-DIN)', 'Net-(U26-DIN)'), ('/X_PH_EN', '/Z_PH_EN'), ('VAA', 'VAA'), ('/X Driver/Adjustable Buck Regulator 1/SW', '/Z Driver/Adjustable Buck Regulator 1/SW'), ('/SCK', '/SCK'), ('/X Driver/Adjustable Buck Regulator 1/DPOT_IN', '/Z Driver/Adjustable Buck Regulator 1/DPOT_IN'), ('', ''), ('Net-(U18-PH)', 'Net-(U19-PH)'), ('/X Driver/VDRV', '/Z Driver/VDRV'), ('/X+', '/Z+'), ('Net-(U15-EXT_CAP)', 'Net-(U26-EXT_CAP)'), ('/~{X_HB_SLEEP}', '/~{Z_HB_SLEEP}')]
+06-26 20:09:54 root 340:updating GUI message: 'Replicating text'
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Y Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Z Driver']
+06-26 20:09:54 root 340:updating GUI message: 'Replicating drawings'
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Y Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Z Driver']
+06-26 20:09:54 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
