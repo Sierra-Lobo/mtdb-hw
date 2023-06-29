@@ -4,6 +4,15 @@
 
   (paper "B")
 
+  (title_block
+    (title "SCHEMATIC, CUBESAT MAGNETORQER DRIVER")
+    (date "2023-06-28")
+    (rev "A")
+    (comment 1 "CH")
+    (comment 2 "CH")
+    (comment 3 "RD21-6005")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
@@ -468,13 +477,13 @@
           (reference "R22") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R63") (unit 1)
+          (reference "R68") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R67") (unit 1)
+          (reference "R72") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -494,7 +503,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 167.64 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0df0b34b-a4c5-4b85-84d6-d51faa433935)
-    (property "Reference" "#PWR0127" (at 167.64 130.81 0)
+    (property "Reference" "#PWR0130" (at 167.64 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 167.64 123.19 0)
@@ -519,13 +528,13 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -546,13 +555,13 @@
     (property "Datasheet" "~" (at 167.64 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "CAP CER 0.1UF 50V X7R 0402" (at 167.64 130.81 0)
+    (property "Description" "" (at 167.64 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "TDK" (at 167.64 130.81 0)
+    (property "Manufacturer" "" (at 167.64 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "CGA2B3X7R1H104K050BE" (at 167.64 130.81 0)
+    (property "Mfr. Part No" "" (at 167.64 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fa81ca14-fa3c-4d99-9562-f7c2b550a761))
@@ -609,13 +618,13 @@
           (reference "R20") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R62") (unit 1)
+          (reference "R66") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
           (reference "R12") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R66") (unit 1)
+          (reference "R70") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -655,13 +664,13 @@
           (reference "R19") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R61") (unit 1)
+          (reference "R65") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
           (reference "R11") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R65") (unit 1)
+          (reference "R69") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -710,13 +719,13 @@
           (reference "R21") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R60") (unit 1)
+          (reference "R67") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R10") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "R64") (unit 1)
+          (reference "R71") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -755,13 +764,13 @@
           (reference "#PWR032") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -800,13 +809,13 @@
           (reference "#PWR032") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -845,13 +854,13 @@
           (reference "#PWR031") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/dea71222-8b08-4946-a125-b539fb992320"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
       (project "payload-interface-board"

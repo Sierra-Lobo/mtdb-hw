@@ -4,6 +4,15 @@
 
   (paper "B")
 
+  (title_block
+    (title "SCHEMATIC, CUBESAT MAGNETORQER DRIVER")
+    (date "2023-06-28")
+    (rev "A")
+    (comment 1 "CH")
+    (comment 2 "CH")
+    (comment 3 "RD21-6005")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -334,10 +343,10 @@
     (property "Manufacturer" "Keystone" (at 345.44 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "5119" (at 350.52 127 0)
+    (property "Mfr. Part No" "5002" (at 350.52 127 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Description" "PC TEST POINT MINIATURE PURPLE" (at 345.44 128.27 0)
+    (property "Description" "PC TEST POINT MINIATURE WHITE" (at 345.44 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 95fcb617-4c8a-4f1b-a336-ceff17580d3f))
@@ -356,13 +365,13 @@
           (reference "TP24") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "TP2") (unit 1)
+          (reference "TP10") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "TP6") (unit 1)
+          (reference "TP13") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "TP15") (unit 1)
+          (reference "TP21") (unit 1)
         )
       )
     )
@@ -386,10 +395,10 @@
     (property "Manufacturer" "Keystone" (at 345.44 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "5119" (at 350.52 119.38 0)
+    (property "Mfr. Part No" "5002" (at 350.52 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Description" "PC TEST POINT MINIATURE PURPLE" (at 345.44 120.65 0)
+    (property "Description" "PC TEST POINT MINIATURE WHITE" (at 345.44 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0e619c5f-ea22-4c22-b6ea-aa397a0d21b9))
@@ -408,13 +417,13 @@
           (reference "TP23") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "TP1") (unit 1)
+          (reference "TP9") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "TP5") (unit 1)
+          (reference "TP12") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "TP14") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -423,10 +432,10 @@
   (symbol (lib_id "Device:R_US") (at 267.97 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5554bb2d-afc5-4f5e-935f-b71afdd87e46)
-    (property "Reference" "R8" (at 267.97 110.49 90)
+    (property "Reference" "R9" (at 267.97 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "${R_sense}" (at 267.97 113.03 90)
+    (property "Value" "${R_Sense}" (at 267.97 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 268.224 114.554 90)
@@ -449,13 +458,13 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "R8") (unit 1)
-        )
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
           (reference "R9") (unit 1)
         )
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
+          (reference "R10") (unit 1)
+        )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "R46") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -501,13 +510,13 @@
           (reference "TP25") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "TP3") (unit 1)
+          (reference "TP11") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "TP7") (unit 1)
+          (reference "TP14") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "TP16") (unit 1)
+          (reference "TP22") (unit 1)
         )
       )
     )
@@ -549,9 +558,9 @@
     )
     (instances
       (project "magnetotorqer-drive-board"
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb" (page "11"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357" (page "9"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668" (page "15"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb" (page "401"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357" (page "501"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668" (page "601"))
       )
     )
   )
@@ -581,9 +590,9 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff" (page "7"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb" (page "7"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357" (page "8"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668" (page "12"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb" (page "4037"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357" (page "503"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668" (page "603"))
       )
     )
   )
@@ -624,9 +633,9 @@
     )
     (instances
       (project "magnetotorqer-drive-board"
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb" (page "13"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357" (page "5"))
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668" (page "14"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb" (page "402"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357" (page "502"))
+        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668" (page "602"))
       )
     )
   )

@@ -5,11 +5,12 @@
   (paper "B")
 
   (title_block
-    (title "Current Sense Amplifier")
-    (date "2023-06-23")
+    (title "SCHEMATIC, CUBESAT MAGNETORQER DRIVER")
+    (date "2023-06-28")
     (rev "A")
     (comment 1 "CH")
     (comment 2 "CH")
+    (comment 3 "RD21-6005")
   )
 
   (lib_symbols
@@ -516,13 +517,13 @@
           (reference "#PWR019") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0191") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0192") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -543,13 +544,13 @@
     (property "Datasheet" "~" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "CAP CER 0.1UF 50V X7R 0402" (at 190.5 149.86 0)
+    (property "Description" "" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "TDK" (at 190.5 149.86 0)
+    (property "Manufacturer" "" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "CGA2B3X7R1H104K050BE" (at 190.5 149.86 0)
+    (property "Mfr. Part No" "" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e580d188-b19d-4e56-874b-f081784d75e1))
@@ -560,13 +561,13 @@
           (reference "C24") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C29") (unit 1)
+          (reference "C30") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C32") (unit 1)
+          (reference "C33") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C55") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -614,10 +615,10 @@
           (reference "#PWR077") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -648,10 +649,10 @@
           (reference "#PWR079") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -693,10 +694,10 @@
           (reference "#PWR076") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -784,10 +785,10 @@
           (reference "#PWR078") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
       (project "payload-interface-board"
@@ -819,13 +820,13 @@
     (property "Datasheet" "~" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "CAP CER 0.1UF 50V X7R 0402" (at 194.31 109.22 0)
+    (property "Description" "" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "TDK" (at 194.31 109.22 0)
+    (property "Manufacturer" "" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "CGA2B3X7R1H104K050BE" (at 194.31 109.22 0)
+    (property "Mfr. Part No" "" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fdf45abc-ec78-4f05-840e-4172cf17d163))
@@ -836,13 +837,13 @@
           (reference "C24") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C30") (unit 1)
+          (reference "C29") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C33") (unit 1)
+          (reference "C32") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C56") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
       (project "payload-interface-board"
