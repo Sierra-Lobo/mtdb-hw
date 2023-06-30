@@ -6,11 +6,11 @@
 
   (title_block
     (title "SCHEMATIC, CUBESAT MAGNETORQER DRIVER")
-    (date "2023-06-28")
+    (date "2023-06-30")
     (rev "A")
     (comment 1 "CH")
     (comment 2 "CH")
-    (comment 3 "RD21-6005")
+    (comment 3 "RD21-7005")
   )
 
   (lib_symbols
@@ -328,7 +328,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 345.44 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c354151-089a-46d6-b08b-0b7f05d7f21e)
-    (property "Reference" "TP3" (at 347.98 124.333 0)
+    (property "Reference" "TP?" (at 347.98 124.333 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "${NET_NAME(1)}" (at 347.98 126.873 0)
@@ -353,25 +353,25 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "TP3") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP15") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP10") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP24") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "TP10") (unit 1)
+          (reference "TP16") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "TP13") (unit 1)
+          (reference "TP24") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "TP21") (unit 1)
+          (reference "TP32") (unit 1)
         )
       )
     )
@@ -380,7 +380,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 345.44 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49406970-8f91-4be1-bc82-271926a7f263)
-    (property "Reference" "TP3" (at 347.98 116.713 0)
+    (property "Reference" "TP?" (at 347.98 116.713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "${NET_NAME(1)}" (at 347.98 119.253 0)
@@ -405,25 +405,25 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "TP3") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP14") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP9") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP23") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "TP9") (unit 1)
+          (reference "TP15") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "TP12") (unit 1)
+          (reference "TP23") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "TP20") (unit 1)
+          (reference "TP31") (unit 1)
         )
       )
     )
@@ -432,7 +432,7 @@
   (symbol (lib_id "Device:R_US") (at 267.97 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5554bb2d-afc5-4f5e-935f-b71afdd87e46)
-    (property "Reference" "R9" (at 267.97 110.49 90)
+    (property "Reference" "R55" (at 267.97 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "${R_Sense}" (at 267.97 113.03 90)
@@ -458,13 +458,13 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "R9") (unit 1)
+          (reference "R55") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "R10") (unit 1)
+          (reference "R74") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "R50") (unit 1)
+          (reference "R93") (unit 1)
         )
       )
     )
@@ -473,7 +473,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 345.44 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b556a290-9755-4559-a4de-0313eb07cc0c)
-    (property "Reference" "TP3" (at 347.98 131.953 0)
+    (property "Reference" "TP?" (at 347.98 131.953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "${NET_NAME(1)}" (at 347.98 134.493 0)
@@ -498,25 +498,25 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "TP3") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP16") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP11") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/5c5f6184-6b4f-4d2f-a4ab-4cc197c5e0c0"
-          (reference "TP25") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "TP11") (unit 1)
+          (reference "TP17") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357"
-          (reference "TP14") (unit 1)
+          (reference "TP25") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668"
-          (reference "TP22") (unit 1)
+          (reference "TP33") (unit 1)
         )
       )
     )

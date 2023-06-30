@@ -6,11 +6,11 @@
 
   (title_block
     (title "SCHEMATIC, CUBESAT MAGNETORQER DRIVER")
-    (date "2023-06-28")
+    (date "2023-06-30")
     (rev "A")
     (comment 1 "CH")
     (comment 2 "CH")
-    (comment 3 "RD21-6005")
+    (comment 3 "RD21-7005")
   )
 
   (lib_symbols
@@ -296,12 +296,6 @@
   (junction (at 194.31 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 226a18ee-d855-47d6-8656-29c59ae4504a)
   )
-  (junction (at 181.61 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid cf049fbb-b775-47be-94d6-3865de3e38d9)
-  )
-  (junction (at 181.61 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid ddd3e789-05b2-472d-9529-a668c7d6ddac)
-  )
 
   (wire (pts (xy 203.2 104.14) (xy 194.31 104.14))
     (stroke (width 0) (type default))
@@ -311,21 +305,9 @@
     (stroke (width 0) (type default))
     (uuid 06639b2d-d083-4378-b308-b0ea0442ae1d)
   )
-  (wire (pts (xy 181.61 114.3) (xy 194.31 114.3))
-    (stroke (width 0) (type default))
-    (uuid 248ba21d-a7da-4bb0-bf39-4226f076c301)
-  )
-  (wire (pts (xy 181.61 104.14) (xy 194.31 104.14))
-    (stroke (width 0) (type default))
-    (uuid 33737d14-aeee-4dfd-844a-6e691178bddd)
-  )
   (wire (pts (xy 190.5 144.78) (xy 190.5 146.05))
     (stroke (width 0) (type default))
     (uuid 343ea494-794b-42cc-a7ee-35b46b261ed5)
-  )
-  (wire (pts (xy 181.61 104.14) (xy 181.61 105.41))
-    (stroke (width 0) (type default))
-    (uuid 45468174-128a-4a1e-9685-5d33bcf1a80d)
   )
   (wire (pts (xy 177.8 134.62) (xy 198.12 134.62))
     (stroke (width 0) (type default))
@@ -334,10 +316,6 @@
   (wire (pts (xy 203.2 139.7) (xy 203.2 154.94))
     (stroke (width 0) (type default))
     (uuid 6249c904-41ca-4e85-bc7b-c3841a74abe8)
-  )
-  (wire (pts (xy 181.61 114.3) (xy 181.61 113.03))
-    (stroke (width 0) (type default))
-    (uuid 89bf2998-f374-4e4b-991b-9f7a7de72009)
   )
   (wire (pts (xy 194.31 105.41) (xy 194.31 104.14))
     (stroke (width 0) (type default))
@@ -430,10 +408,10 @@
   (symbol (lib_id "Amplifier_Current:INA199xxDCK") (at 205.74 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d419ab9-d1c1-4870-a2d2-b7d181bc53c5)
-    (property "Reference" "U7" (at 194.31 121.92 0)
+    (property "Reference" "U?" (at 215.9 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "INA199A2xDCK" (at 194.31 124.46 0)
+    (property "Value" "INA199A2" (at 215.9 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 207.01 130.81 0)
@@ -442,13 +420,13 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina199.pdf" (at 209.55 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 205.74 132.08 0)
+    (property "Manufacturer" "Texas Instruments" (at 205.74 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 205.74 132.08 0)
+    (property "Mfr. Part No" "INA199A2DCKT" (at 205.74 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 205.74 132.08 0)
+    (property "Description" "IC CURRENT SENSE 1.5% SC70-6" (at 205.74 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b78cc04c-ec6f-4a9d-be73-084441ed9bbc))
@@ -460,70 +438,70 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "U7") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "U9") (unit 1)
+          (reference "U27") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "U10") (unit 1)
+          (reference "U21") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "U17") (unit 1)
+          (reference "U26") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "U9") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "U15") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "U12") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "SierraLobo:+3V3A") (at 181.61 104.14 0) (unit 1)
+  (symbol (lib_id "SierraLobo:+3V3A") (at 194.31 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d214d0e-e9fa-4181-b5b8-1550687e4cea)
-    (property "Reference" "#PWR019" (at 181.61 107.95 0)
+    (property "Reference" "#PWR?" (at 194.31 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3A" (at 181.61 100.33 0)
+    (property "Value" "+3V3A" (at 194.31 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 181.61 104.14 0)
+    (property "Footprint" "" (at 194.31 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 181.61 104.14 0)
+    (property "Datasheet" "" (at 194.31 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 181.61 104.14 0)
+    (property "Manufacturer" "" (at 194.31 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 181.61 104.14 0)
+    (property "Mfr. Part No" "" (at 194.31 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 181.61 104.14 0)
+    (property "Description" "" (at 194.31 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bcfd2f89-9de7-4dd1-92f1-33da4301fe37))
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
     )
@@ -532,7 +510,7 @@
   (symbol (lib_id "Device:C") (at 190.5 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f9b8efe-36a8-4dfd-b117-d02b44a03ec2)
-    (property "Reference" "C24" (at 187.579 148.9515 0)
+    (property "Reference" "C?" (at 187.579 148.9515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 187.579 151.7266 0)
@@ -541,16 +519,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 189.5348 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 190.5 149.86 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 190.5 149.86 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 190.5 149.86 0)
+    (property "Manufacturer" "TDK Corporation" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 190.5 149.86 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 190.5 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 190.5 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e580d188-b19d-4e56-874b-f081784d75e1))
@@ -558,27 +539,27 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C30") (unit 1)
+          (reference "C80") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C33") (unit 1)
+          (reference "C65") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C56") (unit 1)
+          (reference "C78") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "C29") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -587,7 +568,7 @@
   (symbol (lib_id "SierraLobo:+1V65A") (at 190.5 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6386c3a7-a14b-440c-afdf-f9bfbeaf5dd1)
-    (property "Reference" "#PWR077" (at 190.5 148.59 0)
+    (property "Reference" "#PWR0193" (at 190.5 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V65A" (at 190.5 140.97 0)
@@ -612,13 +593,13 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -627,7 +608,7 @@
   (symbol (lib_id "power:GND") (at 203.2 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a61f96d-d352-4201-94a1-df0536d934be)
-    (property "Reference" "#PWR035" (at 203.2 161.29 0)
+    (property "Reference" "#PWR?" (at 203.2 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 159.5025 0)
@@ -643,118 +624,72 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 181.61 114.3 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 194.31 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96ebaf0a-5daa-4689-9052-ac3a1df3b513)
-    (property "Reference" "#PWR034" (at 181.61 120.65 0)
+    (property "Reference" "#PWR?" (at 194.31 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 181.61 118.8625 0)
+    (property "Value" "GND" (at 194.31 118.8625 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 181.61 114.3 0)
+    (property "Footprint" "" (at 194.31 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 181.61 114.3 0)
+    (property "Datasheet" "" (at 194.31 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d1ae924-4604-43d2-952b-7fe36fb1e8d0))
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 181.61 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c933f18f-2e8c-4618-9f6e-e78ceeeab176)
-    (property "Reference" "C23" (at 184.531 108.3115 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.01uF" (at 184.531 111.0866 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 182.5752 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a664747-51ba-4585-b9ed-aa816dbf9552))
-    (pin "2" (uuid 6d9eeb39-c244-4f2d-b2a2-a02f95fdac41))
-    (instances
-      (project "magnetotorqer-drive-board"
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "C23") (unit 1)
-        )
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C28") (unit 1)
-        )
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C31") (unit 1)
-        )
-        (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C54") (unit 1)
-        )
-      )
-      (project "payload-interface-board"
-        (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "C16") (unit 1)
-        )
-        (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "C28") (unit 1)
-        )
-        (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "C23") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -763,7 +698,7 @@
   (symbol (lib_id "power:GND") (at 190.5 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea399ea5-1606-4098-9959-83e614fe8768)
-    (property "Reference" "#PWR035" (at 190.5 161.29 0)
+    (property "Reference" "#PWR?" (at 190.5 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 159.5025 0)
@@ -779,27 +714,27 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -808,7 +743,7 @@
   (symbol (lib_id "Device:C") (at 194.31 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff9ab858-1ec0-41ab-a8b2-cfe3192da3b3)
-    (property "Reference" "C24" (at 197.231 108.3115 0)
+    (property "Reference" "C?" (at 197.231 108.3115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 197.231 111.0866 0)
@@ -817,16 +752,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 195.2752 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 194.31 109.22 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 194.31 109.22 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 194.31 109.22 0)
+    (property "Manufacturer" "TDK Corporation" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 194.31 109.22 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 194.31 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 194.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fdf45abc-ec78-4f05-840e-4172cf17d163))
@@ -834,27 +772,27 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/8ccdbec3-7661-4a0b-9858-5169c364aebb/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C29") (unit 1)
+          (reference "C81") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0c4bd054-86d6-4fc6-b8bd-5dc40d9d4357/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C32") (unit 1)
+          (reference "C66") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/853a01c4-0f0d-42ee-a9e8-050403071668/765443f8-c18e-4cd2-97d5-a5c0f8a3785d"
-          (reference "C55") (unit 1)
+          (reference "C79") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/9a405ebb-5c40-4de0-9346-a2ae3aaabc82"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/146b684a-f73b-4eb1-adfe-30f1964810bc"
-          (reference "C29") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/d37b3655-4247-47b6-9578-a41f570787b9"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )

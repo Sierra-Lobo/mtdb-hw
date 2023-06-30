@@ -6,11 +6,11 @@
 
   (title_block
     (title "SCHEMATIC, CUBESAT MAGNETORQER DRIVER")
-    (date "2023-06-28")
+    (date "2023-06-30")
     (rev "A")
     (comment 1 "CH")
     (comment 2 "CH")
-    (comment 3 "RD21-6005")
+    (comment 3 "RD21-7005")
   )
 
   (lib_symbols
@@ -686,11 +686,133 @@
         )
       )
     )
-    (symbol "MCU_Microchip_SAMD:ATSAMD51J20A-A" (in_bom yes) (on_board yes)
+    (symbol "SierraLobo:+3V3A" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR0160" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3A" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mfr. Part No" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3A\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3A_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3A_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "SierraLobo:+3V3D" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR0160" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3D" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mfr. Part No" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3A\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3D_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3D_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3D" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "SierraLobo:ATSAMD51J20A-AU" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -15.24 -44.45 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
-      (property "Value" "ATSAMD51J20A-A" (at 5.08 -44.45 0)
+      (property "Value" "ATSAMD51J20A-AU" (at 5.08 -44.45 0)
         (effects (font (size 1.27 1.27)) (justify left top))
       )
       (property "Footprint" "Package_QFP:TQFP-64_10x10mm_P0.5mm" (at 0 0 0)
@@ -699,28 +821,37 @@
       (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "Manufacturer" "Microchip Technology" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Description" "IC MCU 32BIT 1MB FLASH 64TQFP" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Mfr. Part No." "ATSAMD51J20A-AU" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (property "ki_keywords" "32-bit ARM Cortex-M4F MCU Microcontroller" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "SAM D51 Microchip SMART ARM Cortex-M4F-based MCU, 1024K Flash, 256K SRAM, TQFP-64" (at 0 0 0)
+      (property "ki_description" "SAM D51 Microchip SMART ARM Cortex-M4F-based MCU" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "TQFP*10x10mm*P0.5mm*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "ATSAMD51J20A-A_0_1"
+      (symbol "ATSAMD51J20A-AU_0_1"
         (rectangle (start -15.24 43.18) (end 15.24 -43.18)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "ATSAMD51J20A-A_1_0"
+      (symbol "ATSAMD51J20A-AU_1_0"
         (pin bidirectional line (at 17.78 25.4 180) (length 2.54)
           (name "PB03" (effects (font (size 1.27 1.27))))
           (number "64" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ATSAMD51J20A-A_1_1"
+      (symbol "ATSAMD51J20A-AU_1_1"
         (pin bidirectional line (at -17.78 35.56 0) (length 2.54)
           (name "PA00" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -975,142 +1106,29 @@
         )
       )
     )
-    (symbol "SierraLobo:+3V3A" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0160" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3A" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mfr. Part No" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3A\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3A_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3A_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "SierraLobo:+3V3D" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR0160" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3D" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mfr. Part No" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3A\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3D_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3D_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3D" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "SierraLobo:MAX708RESA-T" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "SierraLobo:MAX708RESA" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 5.08 3.81 0)
         (effects (font (size 1.7526 1.7526)) (justify left bottom))
       )
-      (property "Value" "MAX708RESA-T" (at -3.81 1.27 0)
+      (property "Value" "MAX708RESA+T" (at -3.81 1.27 0)
         (effects (font (size 1.7526 1.7526)) (justify left bottom))
       )
-      (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 6.35 1.27 0)
+      (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 6.35 -8.89 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (at -13.97 -5.08 0)
+      (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max706ap-max708t.pdf" (at -13.97 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "MAX708RESA-T_1_0"
+      (property "Manufacturer" "Analog Devices/Maxim Integrated" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mfr. Part No" "MAX708RESA+T" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "IC SUPERVISOR 1 CHANNEL 8SOIC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MAX708RESA_1_0"
         (pin input line (at -2.54 -7.62 0) (length 2.54)
           (name "~{MR}" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1144,7 +1162,7 @@
           (number "8" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "MAX708RESA-T_1_1"
+      (symbol "MAX708RESA_1_1"
         (rectangle (start 0 0) (end 13.97 -20.32)
           (stroke (width 0) (type default))
           (fill (type background))
@@ -1252,7 +1270,7 @@
       (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP2x2mm" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (at -11.43 0 0)
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/144/MR25H10_Datasheet-1511337.pdf" (at -11.43 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Manufacturer" "Everspin Technologies Inc." (at 0 1.27 0)
@@ -2776,7 +2794,7 @@
   (symbol (lib_id "power:GND") (at 152.4 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0092cb55-aab9-4976-aa80-cd2253f886a4)
-    (property "Reference" "#PWR061" (at 152.4 147.32 0)
+    (property "Reference" "#PWR093" (at 152.4 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 144.78 0)
@@ -2792,12 +2810,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2806,7 +2824,7 @@
   (symbol (lib_id "Device:R_US") (at 372.11 148.59 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01d16f0d-6151-432e-85a7-fce05af3b7df)
-    (property "Reference" "R21" (at 372.11 143.51 90)
+    (property "Reference" "R52" (at 372.11 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 372.11 146.05 90)
@@ -2815,16 +2833,19 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 371.856 149.606 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 372.11 148.59 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 372.11 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 372.11 148.59 0)
+    (property "Mfr. Part No" "RMCF0402FT10K0" (at 372.11 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 372.11 148.59 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 372.11 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 372.11 148.59 0)
+    (property "Description" "RES 10K OHM 1% 1/16W 0402" (at 372.11 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "62.5mW" (at 372.11 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b8fe732e-a072-49d5-8154-1063e9029832))
@@ -2832,18 +2853,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R21") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e6cd0522-f6a3-4d03-a803-93519a6d1ef5"
-          (reference "R39") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "R281") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2852,7 +2873,7 @@
   (symbol (lib_id "Device:C") (at 167.64 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01f15039-bc9a-423d-a2a9-3454b1201298)
-    (property "Reference" "C22" (at 165.1 99.06 0)
+    (property "Reference" "C32" (at 165.1 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 165.1 101.6 0)
@@ -2861,16 +2882,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 167.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 167.64 100.33 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 167.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 167.64 100.33 0)
+    (property "Mfr. Part No" "CGA4J1X7S1E106K125AE" (at 167.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 167.64 100.33 0)
+    (property "Manufacturer" "TDK Corporation" (at 167.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 167.64 100.33 0)
+    (property "Description" "CAP CER 10UF 25V X7S 0805" (at 167.64 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "25V" (at 167.64 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b40123a-d41b-434c-a56e-dc0715067ffd))
@@ -2878,12 +2902,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C22") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C23") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2892,7 +2916,7 @@
   (symbol (lib_id "Device:C") (at 279.4 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03ffca1f-5a48-496a-81b9-f7ffd92d6b45)
-    (property "Reference" "C19" (at 281.94 78.74 0)
+    (property "Reference" "C40" (at 281.94 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 281.94 81.28 0)
@@ -2901,16 +2925,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 279.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 279.4 80.01 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 279.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 279.4 80.01 0)
+    (property "Mfr. Part No" "CGA4J1X7S1E106K125AE" (at 279.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 279.4 80.01 0)
+    (property "Manufacturer" "TDK Corporation" (at 279.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 279.4 80.01 0)
+    (property "Description" "CAP CER 10UF 25V X7S 0805" (at 279.4 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "25V" (at 279.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 221b9248-dc00-443d-bbae-5e37393285fd))
@@ -2918,12 +2945,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C19") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2932,7 +2959,7 @@
   (symbol (lib_id "power:GND") (at 185.42 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06661740-0de7-4cf8-a329-319d20b3bace)
-    (property "Reference" "#PWR018" (at 185.42 198.12 0)
+    (property "Reference" "#PWR?" (at 185.42 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.547 196.1642 0)
@@ -2948,20 +2975,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2970,7 +2997,7 @@
   (symbol (lib_id "power:GND") (at 40.005 178.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 078e3823-eb53-41bc-9c9f-93f1dc9f3b98)
-    (property "Reference" "#PWR065" (at 40.005 184.785 0)
+    (property "Reference" "#PWR080" (at 40.005 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.005 182.245 0)
@@ -2986,20 +3013,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3026,7 +3053,7 @@
     (property "Manufacturer" "N/A" (at 71.12 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 71.12 173.99 0)
+    (property "Description" "26 AWG SOLID CORE WIRE" (at 71.12 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9ce0428e-c5c5-459d-b4c5-d43252cbcd59))
@@ -3039,18 +3066,18 @@
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "JP1") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "JP3") (unit 1)
+          (reference "JP?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "JP1") (unit 1)
+          (reference "JP?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "JP3") (unit 1)
+          (reference "JP?") (unit 1)
         )
       )
     )
@@ -3068,7 +3095,7 @@
     (property "Footprint" "Inductor_SMD:L_1210_3225Metric" (at 189.23 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 189.23 99.06 0)
+    (property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_bcl322520rt-d_en.pdf" (at 189.23 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "BCL322520RT-100M-D" (at 189.23 99.06 0)
@@ -3090,7 +3117,7 @@
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
     )
@@ -3099,7 +3126,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12fe0011-bebe-487b-9af9-ff3c29b46b9e)
-    (property "Reference" "R23" (at 241.3 156.21 90)
+    (property "Reference" "R45" (at 241.3 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 250.19 156.21 90)
@@ -3108,16 +3135,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.634 156.464 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 246.38 157.48 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 246.38 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 246.38 157.48 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 246.38 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 246.38 157.48 0)
+    (property "Mfr. Part No" "RMCF0603FG1K00" (at 246.38 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 246.38 157.48 0)
+    (property "Description" "RES 1K OHM 1% 1/10W 0603" (at 246.38 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 246.38 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc5d253e-a64f-45ac-a2ec-197b281f6e0f))
@@ -3125,7 +3155,7 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R23") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -3134,7 +3164,7 @@
   (symbol (lib_id "Device:R_US") (at 52.07 217.17 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15954117-e39b-445d-8f85-f0c6d9a6e76d)
-    (property "Reference" "R35" (at 48.26 215.9 0)
+    (property "Reference" "R34" (at 48.26 215.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 48.26 218.44 0)
@@ -3143,16 +3173,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 53.086 216.916 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 52.07 217.17 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 52.07 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 52.07 217.17 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 52.07 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 52.07 217.17 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 52.07 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 52.07 217.17 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 52.07 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 52.07 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 83dcbfb4-9c68-4824-8bd9-e2ffa08b76ce))
@@ -3160,20 +3193,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R35") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R122") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3182,7 +3215,7 @@
   (symbol (lib_id "power:GND") (at 86.36 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19e87893-c6b3-4ab9-849a-08c31f33ca80)
-    (property "Reference" "#PWR053" (at 86.36 109.22 0)
+    (property "Reference" "#PWR085" (at 86.36 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 106.68 0)
@@ -3198,20 +3231,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3220,7 +3253,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 111.76 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e9afd46-c45b-4aae-b544-9899754489a2)
-    (property "Reference" "P3" (at 113.03 124.46 0)
+    (property "Reference" "P4" (at 113.03 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FTSH-105-01-F-DV-K-TR" (at 113.03 124.46 0)
@@ -3229,7 +3262,7 @@
     (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" (at 111.76 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 111.76 133.35 0)
+    (property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf" (at 111.76 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "FTSH-105-01-F-DV-K-TR" (at 111.76 133.35 0)
@@ -3254,12 +3287,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "P3") (unit 1)
+          (reference "P4") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "P3") (unit 1)
+          (reference "P?") (unit 1)
         )
       )
     )
@@ -3268,7 +3301,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 289.56 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2014960f-5989-4508-9182-fee965829e98)
-    (property "Reference" "#PWR047" (at 289.56 80.01 0)
+    (property "Reference" "#PWR0104" (at 289.56 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 289.56 72.644 0)
@@ -3293,12 +3326,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#SUPPLY012") (unit 1)
+          (reference "#SUPPLY?") (unit 1)
         )
       )
     )
@@ -3307,7 +3340,7 @@
   (symbol (lib_id "Device:C") (at 242.57 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 245cf2c9-7651-498c-9d4e-d827c59965f6)
-    (property "Reference" "C16" (at 245.11 78.74 0)
+    (property "Reference" "C35" (at 245.11 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 245.11 81.28 0)
@@ -3316,16 +3349,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 242.57 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 242.57 80.01 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 242.57 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 242.57 80.01 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 242.57 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 242.57 80.01 0)
+    (property "Manufacturer" "TDK Corporation" (at 242.57 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 242.57 80.01 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 242.57 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 242.57 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 420873e5-8762-4763-97f4-c0720bdf7d03))
@@ -3333,12 +3369,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C16") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -3347,7 +3383,7 @@
   (symbol (lib_id "Device:R_US") (at 386.08 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 259032b1-58d4-4416-b652-910912b7be1f)
-    (property "Reference" "R104" (at 388.62 158.115 0)
+    (property "Reference" "R?" (at 388.62 158.115 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1.5k" (at 388.62 160.655 0)
@@ -3356,16 +3392,19 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 385.064 158.496 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 386.08 158.75 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 386.08 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 386.08 158.75 0)
+    (property "Mfr. Part No" "RMCF0402FT1K50" (at 386.08 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 386.08 158.75 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 386.08 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 386.08 158.75 0)
+    (property "Description" "RES 1.5K OHM 1% 1/16W 0402" (at 386.08 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "62.5mW" (at 386.08 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49acea27-e865-40e0-83e4-3a1decc3d914))
@@ -3373,18 +3412,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
-          (reference "R104") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R24") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e6cd0522-f6a3-4d03-a803-93519a6d1ef5"
-          (reference "R168") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3393,25 +3432,28 @@
   (symbol (lib_id "Device:R_US") (at 344.17 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a72b88a-546d-4226-b95d-1f4205e37e1f)
-    (property "Reference" "R16" (at 344.17 101.6 90)
+    (property "Reference" "R51" (at 344.17 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "499" (at 344.17 104.14 90)
+    (property "Value" "1k" (at 344.17 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 343.916 107.696 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 344.17 106.68 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 344.17 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 344.17 106.68 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 344.17 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 344.17 106.68 0)
+    (property "Mfr. Part No" "RMCF0603FG1K00" (at 344.17 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 344.17 106.68 0)
+    (property "Description" "RES 1K OHM 1% 1/10W 0603" (at 344.17 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 344.17 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 704ace52-dd6e-4580-81a0-a69c91fe15d3))
@@ -3419,18 +3461,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R16") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R123") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3439,7 +3481,7 @@
   (symbol (lib_id "power:GND") (at 104.14 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f75d49a-50b1-403b-b778-75d59989a613)
-    (property "Reference" "#PWR060" (at 104.14 144.78 0)
+    (property "Reference" "#PWR091" (at 104.14 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 142.24 0)
@@ -3455,12 +3497,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3469,7 +3511,7 @@
   (symbol (lib_id "Device:R_US") (at 326.39 176.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31839e21-2579-420d-9fe8-c385aa871e49)
-    (property "Reference" "R31" (at 326.39 171.45 90)
+    (property "Reference" "R49" (at 326.39 171.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 326.39 173.99 90)
@@ -3478,16 +3520,19 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 326.136 177.546 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 326.39 176.53 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 326.39 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 326.39 176.53 0)
+    (property "Mfr. Part No" "RMCF0402FT10K0" (at 326.39 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 326.39 176.53 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 326.39 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 326.39 176.53 0)
+    (property "Description" "RES 10K OHM 1% 1/16W 0402" (at 326.39 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "62.5mW" (at 326.39 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 837d9adf-fda9-45a6-8a14-9343888cb11d))
@@ -3495,18 +3540,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R31") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e6cd0522-f6a3-4d03-a803-93519a6d1ef5"
-          (reference "R39") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "R281") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3515,7 +3560,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 63.5 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 337cc18e-6247-4bf6-8df7-d1da3c4cc467)
-    (property "Reference" "#PWR045" (at 63.5 72.39 0)
+    (property "Reference" "#PWR081" (at 63.5 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 63.5 65.024 0)
@@ -3540,12 +3585,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#SUPPLY018") (unit 1)
+          (reference "#SUPPLY?") (unit 1)
         )
       )
     )
@@ -3554,7 +3599,7 @@
   (symbol (lib_id "Device:R_US") (at 170.18 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34341851-3852-4b8d-8450-fc676bb8dfd7)
-    (property "Reference" "R32" (at 166.37 186.69 0)
+    (property "Reference" "R41" (at 166.37 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 166.37 189.23 0)
@@ -3563,16 +3608,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 171.196 188.214 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 170.18 187.96 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 170.18 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 170.18 187.96 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 170.18 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 170.18 187.96 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 170.18 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 170.18 187.96 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 170.18 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 170.18 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cff3c100-bcf4-4b3e-a589-e490879ce9dd))
@@ -3580,20 +3628,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R32") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3602,7 +3650,7 @@
   (symbol (lib_id "Device:R_US") (at 152.4 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37d0e4b1-4c0c-47fd-b8c1-06df90d28890)
-    (property "Reference" "R19" (at 156.21 133.35 0)
+    (property "Reference" "R39" (at 156.21 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "110k" (at 156.21 135.89 0)
@@ -3611,16 +3659,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.384 134.874 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 152.4 134.62 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 152.4 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 152.4 134.62 0)
+    (property "Mfr. Part No" "RMCF0603FT110K" (at 152.4 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 152.4 134.62 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 152.4 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 152.4 134.62 0)
+    (property "Description" "RES 110K OHM 1% 1/10W 0603" (at 152.4 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 152.4 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cc843cb1-d97a-4228-b183-2dd9fab6ee12))
@@ -3628,20 +3679,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R19") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3650,7 +3701,7 @@
   (symbol (lib_id "SierraLobo:MR25H10MDF") (at 87.63 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a2077b0-a45f-4290-a7e2-63ab0bc5c2d6)
-    (property "Reference" "U6" (at 87.63 76.2 0)
+    (property "Reference" "U11" (at 87.63 76.2 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "MR25H10MDF" (at 87.63 78.74 0)
@@ -3659,7 +3710,7 @@
     (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP2x2mm" (at 87.63 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 99.06 80.01 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/144/MR25H10_Datasheet-1511337.pdf" (at 99.06 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Everspin Technologies Inc." (at 87.63 78.74 0)
@@ -3683,15 +3734,15 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "U6") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "U16") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "U16") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3700,7 +3751,7 @@
   (symbol (lib_id "power:GND") (at 381 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c5decd3-7f3d-4ee8-97b4-87db8d7c7cd2)
-    (property "Reference" "#PWR056" (at 381 116.84 0)
+    (property "Reference" "#PWR0109" (at 381 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 381.127 114.8842 0)
@@ -3716,42 +3767,42 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "SierraLobo:MAX708RESA-T") (at 83.82 209.55 0) (mirror y) (unit 1)
+  (symbol (lib_id "SierraLobo:MAX708RESA") (at 83.82 209.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4488fa15-385a-419f-ad25-f47c92e507a2)
-    (property "Reference" "U8" (at 78.74 205.74 0)
+    (property "Reference" "U10" (at 78.74 205.74 0)
       (effects (font (size 1.7526 1.7526)) (justify left bottom))
     )
-    (property "Value" "MAX708RESA-T" (at 87.63 208.28 0)
+    (property "Value" "MAX708RESA+T" (at 87.63 208.28 0)
       (effects (font (size 1.7526 1.7526)) (justify left bottom))
     )
-    (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 63.5 203.2 0)
+    (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 77.47 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 83.82 209.55 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max706ap-max708t.pdf" (at 97.79 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "MAX708RESA-T" (at 83.82 209.55 0)
+    (property "Mfr. Part No" "MAX708RESA+T" (at 83.82 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Analog Devices/Maxim Integrated" (at 83.82 209.55 0)
+    (property "Manufacturer" "Analog Devices/Maxim Integrated" (at 83.82 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "IC SUPERVISOR 1 CHANNEL 8SOIC" (at 83.82 209.55 0)
@@ -3768,20 +3819,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "U8") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "U19") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -3790,7 +3841,7 @@
   (symbol (lib_id "Device:C") (at 254 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45b0fd40-06c9-4291-a119-3a184aa4a566)
-    (property "Reference" "C17" (at 256.54 78.74 0)
+    (property "Reference" "C37" (at 256.54 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 256.54 81.28 0)
@@ -3799,16 +3850,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 254 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 254 80.01 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 254 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 254 80.01 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 254 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 254 80.01 0)
+    (property "Manufacturer" "TDK Corporation" (at 254 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 254 80.01 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 254 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 254 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f5800be0-8611-4339-9f0e-a815c4f911ba))
@@ -3816,12 +3870,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C17") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -3830,7 +3884,7 @@
   (symbol (lib_id "power:GND") (at 386.08 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47a60101-aee6-420f-9972-cf3d5072b643)
-    (property "Reference" "#PWR018" (at 386.08 177.8 0)
+    (property "Reference" "#PWR?" (at 386.08 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 386.207 175.8442 0)
@@ -3846,20 +3900,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3868,7 +3922,7 @@
   (symbol (lib_id "Device:R_US") (at 374.65 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4c896571-2c90-4a25-b2a0-d912b864b893)
-    (property "Reference" "R17" (at 374.65 101.6 90)
+    (property "Reference" "R53" (at 374.65 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 374.65 104.14 90)
@@ -3877,16 +3931,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 374.396 107.696 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 374.65 106.68 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 374.65 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 374.65 106.68 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 374.65 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 374.65 106.68 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 374.65 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 374.65 106.68 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 374.65 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 374.65 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3ba33fdb-5389-4de7-80b0-7ae3a63a66d5))
@@ -3894,18 +3951,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R17") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R14") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R123") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -3914,7 +3971,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d496209-484e-491a-ad83-2a946a3d1dc1)
-    (property "Reference" "R26" (at 241.3 161.29 90)
+    (property "Reference" "R47" (at 241.3 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 250.19 161.29 90)
@@ -3923,16 +3980,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.634 161.544 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 246.38 162.56 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 246.38 162.56 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 246.38 162.56 0)
+    (property "Mfr. Part No" "RMCF0603FG1K00" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 246.38 162.56 0)
+    (property "Description" "RES 1K OHM 1% 1/10W 0603" (at 246.38 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 246.38 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 245e6ca6-3141-40cc-884f-0ab940590f65))
@@ -3940,7 +4000,7 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R26") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -3949,7 +4009,7 @@
   (symbol (lib_id "power:GND") (at 256.54 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d5e52cf-6158-483a-af4b-d64c41a1ef93)
-    (property "Reference" "#PWR018" (at 256.54 110.49 0)
+    (property "Reference" "#PWR?" (at 256.54 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.413 108.5342 0)
@@ -3965,20 +4025,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3987,7 +4047,7 @@
   (symbol (lib_id "power:GND") (at 167.64 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e9d7c0b-3bb4-4d7a-9b84-f9d18815fb22)
-    (property "Reference" "#PWR054" (at 167.64 110.49 0)
+    (property "Reference" "#PWR095" (at 167.64 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 107.95 0)
@@ -4003,12 +4063,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4017,7 +4077,7 @@
   (symbol (lib_id "Device:R_US") (at 185.42 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5332eb1d-8834-40fd-aac7-66cf530460d2)
-    (property "Reference" "R33" (at 181.61 186.69 0)
+    (property "Reference" "R42" (at 181.61 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 181.61 189.23 0)
@@ -4026,16 +4086,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 186.436 188.214 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 185.42 187.96 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 185.42 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 185.42 187.96 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 185.42 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 185.42 187.96 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 185.42 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 185.42 187.96 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 185.42 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 185.42 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1971781f-1616-43ac-9f6d-b4c05d684284))
@@ -4043,20 +4106,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R33") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -4065,7 +4128,7 @@
   (symbol (lib_id "Device:R_US") (at 153.67 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53c2b180-404f-45e3-88ed-04f38ce14797)
-    (property "Reference" "R30" (at 149.86 173.99 0)
+    (property "Reference" "R40" (at 149.86 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 149.86 176.53 0)
@@ -4074,16 +4137,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.686 175.514 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 153.67 175.26 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 153.67 175.26 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 153.67 175.26 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 153.67 175.26 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 153.67 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6e6d435d-22ff-48e5-a612-7f1b92d5f116))
@@ -4091,20 +4157,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R30") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -4113,7 +4179,7 @@
   (symbol (lib_id "Device:R_US") (at 326.39 162.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56af1358-8f27-4cb3-9bac-ef46c2ee5df4)
-    (property "Reference" "R27" (at 326.39 157.48 90)
+    (property "Reference" "R48" (at 326.39 157.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 326.39 160.02 90)
@@ -4122,16 +4188,19 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 326.136 163.576 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 326.39 162.56 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 326.39 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 326.39 162.56 0)
+    (property "Mfr. Part No" "RMCF0402FT10K0" (at 326.39 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 326.39 162.56 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 326.39 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 326.39 162.56 0)
+    (property "Description" "RES 10K OHM 1% 1/16W 0402" (at 326.39 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "62.5mW" (at 326.39 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5416b03f-f5cd-457b-bd69-1888d63c094c))
@@ -4139,18 +4208,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R27") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5dde/e6cd0522-f6a3-4d03-a803-93519a6d1ef5"
-          (reference "R39") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "R281") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -4159,7 +4228,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 104.14 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56b479b9-eff4-413d-9b9c-db9d2074091c)
-    (property "Reference" "#PWR059" (at 104.14 132.08 0)
+    (property "Reference" "#PWR090" (at 104.14 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 104.14 124.714 0)
@@ -4184,12 +4253,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#SUPPLY018") (unit 1)
+          (reference "#SUPPLY?") (unit 1)
         )
       )
     )
@@ -4198,25 +4267,28 @@
   (symbol (lib_id "Device:C") (at 74.93 41.91 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f4bb285-1ea2-4eaf-9bfb-30a02f629069)
-    (property "Reference" "C13" (at 68.58 40.64 90)
+    (property "Reference" "C29" (at 68.58 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8pF" (at 68.58 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 74.93 41.91 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.93 41.91 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 74.93 41.91 0)
+    (property "Mfr. Part No" "CGA2B2NP01H080D050BA" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 74.93 41.91 0)
+    (property "Manufacturer" "TDK Corporation" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 74.93 41.91 0)
+    (property "Description" "CAP CER 8PF 50V NP0 0402" (at 74.93 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ac3bec95-460c-4f5b-ba8c-fd80668d8615))
@@ -4224,12 +4296,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C13") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4238,7 +4310,7 @@
   (symbol (lib_id "Device:C") (at 231.14 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fd132eb-511b-49a2-a0e0-4b1522da1b77)
-    (property "Reference" "C15" (at 233.68 78.74 0)
+    (property "Reference" "C34" (at 233.68 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 233.68 81.28 0)
@@ -4247,16 +4319,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 231.14 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 231.14 80.01 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 231.14 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 231.14 80.01 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 231.14 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 231.14 80.01 0)
+    (property "Manufacturer" "TDK Corporation" (at 231.14 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 231.14 80.01 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 231.14 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 231.14 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 073fa641-f042-40a9-9c67-96663e542c0a))
@@ -4264,12 +4339,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C15") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4278,7 +4353,7 @@
   (symbol (lib_id "power:GND") (at 87.63 228.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65f3a510-b633-4075-8ab7-7400886b5a4c)
-    (property "Reference" "#PWR074" (at 87.63 234.95 0)
+    (property "Reference" "#PWR086" (at 87.63 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 232.41 0)
@@ -4294,20 +4369,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4316,7 +4391,7 @@
   (symbol (lib_id "power:GND") (at 63.5 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67669b97-dc5a-4a04-b462-9000939e3dfb)
-    (property "Reference" "#PWR048" (at 63.5 83.82 0)
+    (property "Reference" "#PWR082" (at 63.5 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 81.28 0)
@@ -4332,20 +4407,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4354,7 +4429,7 @@
   (symbol (lib_id "power:GND") (at 71.12 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a03f8e5-9791-48da-8244-70b5d17c699d)
-    (property "Reference" "#PWR044" (at 71.12 50.8 0)
+    (property "Reference" "#PWR084" (at 71.12 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 48.26 0)
@@ -4370,12 +4445,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4384,7 +4459,7 @@
   (symbol (lib_id "Device:C") (at 289.56 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e9fbb29-4b7c-493f-9b4f-5bcaf66df817)
-    (property "Reference" "C20" (at 292.1 78.74 0)
+    (property "Reference" "C41" (at 292.1 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 292.1 81.28 0)
@@ -4393,16 +4468,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 289.56 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 289.56 80.01 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 289.56 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 289.56 80.01 0)
+    (property "Mfr. Part No" "CGA4J1X7S1E106K125AE" (at 289.56 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 289.56 80.01 0)
+    (property "Manufacturer" "TDK Corporation" (at 289.56 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 289.56 80.01 0)
+    (property "Description" "CAP CER 10UF 25V X7S 0805" (at 289.56 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "25V" (at 289.56 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bb107341-f3ff-456a-acf1-bb57ed655dc1))
@@ -4410,24 +4488,24 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C20") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C18") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "MCU_Microchip_SAMD:ATSAMD51J20A-A") (at 220.98 147.32 0) (unit 1)
+  (symbol (lib_id "SierraLobo:ATSAMD51J20A-AU") (at 220.98 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73c3fad5-a845-43d4-a240-95dac9210704)
-    (property "Reference" "U7" (at 225.4759 193.04 0)
+    (property "Reference" "U12" (at 225.4759 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ATSAMD51J20A-A" (at 225.4759 195.58 0)
+    (property "Value" "ATSAMD51J20A-AU" (at 225.4759 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:TQFP-64_10x10mm_P0.5mm" (at 220.98 147.32 0)
@@ -4435,6 +4513,18 @@
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" (at 220.98 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Microchip Technology" (at 225.4759 198.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Mfr. Part No" "" (at 220.98 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "IC MCU 32BIT 1MB FLASH 64TQFP" (at 225.4759 200.66 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Mfr. Part No." "ATSAMD51J20A-AU" (at 225.4759 203.2 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "64" (uuid 82c637b0-546d-4d5b-a956-54308406b15c))
     (pin "1" (uuid a1b85fe5-e686-4e6f-a28a-477fb5c373fe))
@@ -4503,7 +4593,7 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "U7") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -4512,7 +4602,7 @@
   (symbol (lib_id "Device:C") (at 91.44 180.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 766c1b1c-1cee-4d3a-8748-721ef75abc19)
-    (property "Reference" "C27" (at 89.1032 179.1716 0)
+    (property "Reference" "C30" (at 89.1032 179.1716 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF" (at 89.1032 181.483 0)
@@ -4521,16 +4611,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 91.44 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 91.44 180.34 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 91.44 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 91.44 180.34 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 91.44 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 91.44 180.34 0)
+    (property "Manufacturer" "TDK Corporation" (at 91.44 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 91.44 180.34 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 91.44 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 91.44 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 659efcc1-c41e-4848-ab9a-d88257b87480))
@@ -4538,20 +4631,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C27") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "C50") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4560,7 +4653,7 @@
   (symbol (lib_id "Device:D") (at 340.36 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ebcc9a4-3616-44e7-aa21-249c04e4ceee)
-    (property "Reference" "LED1" (at 342.392 151.2316 90)
+    (property "Reference" "LED3" (at 342.392 151.2316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 342.392 153.543 90)
@@ -4569,7 +4662,7 @@
     (property "Footprint" "SierraLobo:APA2107x" (at 340.36 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 340.36 152.4 0)
+    (property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APA2107SYCK.pdf" (at 340.36 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "D" (at 340.36 152.4 0)
@@ -4592,12 +4685,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "LED1") (unit 1)
+          (reference "LED3") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "LED8") (unit 1)
+          (reference "LED?") (unit 1)
         )
       )
     )
@@ -4606,7 +4699,7 @@
   (symbol (lib_id "Device:C") (at 265.43 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f764ebb-c9ce-475b-9e48-52671a67c084)
-    (property "Reference" "C18" (at 267.97 78.74 0)
+    (property "Reference" "C39" (at 267.97 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 267.97 81.28 0)
@@ -4615,16 +4708,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 265.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 265.43 80.01 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 265.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 265.43 80.01 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 265.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 265.43 80.01 0)
+    (property "Manufacturer" "TDK Corporation" (at 265.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 265.43 80.01 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 265.43 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 265.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7c7ae8b3-17eb-4b1e-b8fc-b5bb8c9ab2d1))
@@ -4632,12 +4728,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C18") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C11") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4646,7 +4742,7 @@
   (symbol (lib_id "power:GND") (at 220.98 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fd21019-5090-4734-8950-56268edf93c9)
-    (property "Reference" "#PWR018" (at 220.98 204.47 0)
+    (property "Reference" "#PWR?" (at 220.98 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.107 202.5142 0)
@@ -4662,20 +4758,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4684,7 +4780,7 @@
   (symbol (lib_id "Device:C") (at 337.82 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8429528b-ae87-41a0-b022-0c71e73e4a68)
-    (property "Reference" "C21" (at 341.63 93.345 0)
+    (property "Reference" "C42" (at 341.63 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 341.63 95.885 0)
@@ -4693,16 +4789,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 338.7852 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 337.82 93.98 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 337.82 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 337.82 93.98 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 337.82 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 337.82 93.98 0)
+    (property "Manufacturer" "TDK Corporation" (at 337.82 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 337.82 93.98 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 337.82 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 337.82 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid af2ee55a-0ca1-4456-9ec9-4f87a8a9f32e))
@@ -4710,18 +4809,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C21") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "C54") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4730,7 +4829,7 @@
   (symbol (lib_id "LED:SK6812MINI") (at 358.14 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85c930e6-3d81-4ea0-9eaa-1e6b8b4d340b)
-    (property "Reference" "D3" (at 363.22 100.965 0)
+    (property "Reference" "D5" (at 363.22 100.965 0)
       (effects (font (size 1.27 1.27)) (justify right bottom))
     )
     (property "Value" "SK6812MINI" (at 359.41 112.395 0)
@@ -4742,6 +4841,15 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" (at 360.68 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
+    (property "Description" "ADDRESS LED DISC SERIAL RGB 1=10" (at 358.14 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Adafruit Industries LLC" (at 358.14 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr. Part No" "2659" (at 358.14 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 700988f2-1843-4d6c-b935-4af6a18116aa))
     (pin "2" (uuid d3fcf221-33cb-4c52-97e6-d7a510752b39))
     (pin "3" (uuid 20dd81bf-03b3-4aa4-8312-64cc17e0842c))
@@ -4749,23 +4857,23 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "backplane"
         (path "/83db9fc1-2403-4316-a6ed-41bf80609364/00000000-0000-0000-0000-000061b9d717"
-          (reference "D208") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "D2") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "D208") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "D10") (unit 1)
+          (reference "D?") (unit 1)
         )
       )
     )
@@ -4774,7 +4882,7 @@
   (symbol (lib_id "Device:Q_PNP_BEC") (at 383.54 148.59 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 870da4d5-997c-40cc-b68b-b31f9dc10b63)
-    (property "Reference" "Q1" (at 388.62 147.955 0)
+    (property "Reference" "Q9" (at 388.62 147.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT3906T" (at 388.62 150.495 0)
@@ -4801,24 +4909,24 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "Q1") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/94774350-68be-4131-9d22-bdea2eae3261"
-          (reference "Q76") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/16f74d99-fb34-4942-94f7-264307a230d0"
-          (reference "Q53") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/8f80f71d-2dab-4aed-a364-86eb17282b90"
-          (reference "Q54") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/f59d3a27-35da-42dd-8f28-13490a6a67ab"
-          (reference "Q55") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005ede7915/0be551f5-4cd0-4099-afa0-41f5d887dd91"
-          (reference "Q52") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -4827,7 +4935,7 @@
   (symbol (lib_id "Device:R_US") (at 152.4 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89b8b954-f886-4c81-a410-7ebc43439bd3)
-    (property "Reference" "R18" (at 156.21 123.19 0)
+    (property "Reference" "R38" (at 156.21 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330k" (at 156.21 125.73 0)
@@ -4836,16 +4944,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.384 124.714 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 152.4 124.46 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 152.4 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 152.4 124.46 0)
+    (property "Mfr. Part No" "RMCF0603FT330K" (at 152.4 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 152.4 124.46 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 152.4 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 152.4 124.46 0)
+    (property "Description" "RES 330K OHM 1% 1/10W 0603" (at 152.4 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 152.4 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b002d204-27b4-4167-986c-bb8675a6054d))
@@ -4853,20 +4964,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R18") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -4875,7 +4986,7 @@
   (symbol (lib_id "Device:C") (at 173.99 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8da79436-0c64-42f9-897e-538212fe62b2)
-    (property "Reference" "C23" (at 176.53 99.06 0)
+    (property "Reference" "C33" (at 176.53 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 176.53 101.6 0)
@@ -4884,16 +4995,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 173.99 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 173.99 100.33 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 173.99 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 173.99 100.33 0)
+    (property "Mfr. Part No" "CGA4J3X7R1H105K125AE" (at 173.99 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 173.99 100.33 0)
+    (property "Manufacturer" "TDK Corporation" (at 173.99 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 173.99 100.33 0)
+    (property "Description" "CAP CER 1UF 50V X7R 0805" (at 173.99 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 173.99 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 61a31ed5-af81-4f1d-9f27-a837f53fa1cb))
@@ -4901,12 +5015,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C23") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C22") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -4915,7 +5029,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 91.44 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 948c593b-7649-4255-bbef-3ddac2180d7e)
-    (property "Reference" "#PWR022" (at 91.44 166.37 0)
+    (property "Reference" "#PWR?" (at 91.44 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 91.44 159.004 0)
@@ -4940,10 +5054,10 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -4952,7 +5066,7 @@
   (symbol (lib_id "Device:R_US") (at 58.42 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 948dc7ac-149d-4e24-bf97-21353ec15388)
-    (property "Reference" "R29" (at 58.42 168.91 90)
+    (property "Reference" "R35" (at 58.42 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 58.42 171.45 90)
@@ -4961,16 +5075,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 58.674 172.974 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 58.42 173.99 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 58.42 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 58.42 173.99 0)
+    (property "Mfr. Part No" "RMCF0603FT330R" (at 58.42 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 58.42 173.99 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 58.42 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 58.42 173.99 0)
+    (property "Description" "RES 330 OHM 1% 1/10W 0603" (at 58.42 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 58.42 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bf02c351-9116-4d0c-a906-77a31876e345))
@@ -4978,20 +5095,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R29") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R108") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5000,7 +5117,7 @@
   (symbol (lib_id "Device:R_US") (at 340.36 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 973e8ce2-d430-4755-b199-27d5c8bdfd0f)
-    (property "Reference" "R20" (at 342.0872 142.3416 0)
+    (property "Reference" "R50" (at 342.0872 142.3416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5k" (at 342.0872 144.653 0)
@@ -5009,16 +5126,19 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 341.376 143.764 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 340.36 143.51 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 340.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "RMCF0402FT1K50" (at 340.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Stackpole Electronics" (at 340.36 143.51 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 340.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "RES 1.5K OHM 1% 1/16W 0402" (at 340.36 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "62.5mW" (at 340.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid baa78d10-53f0-4e49-b075-9b594416ba41))
@@ -5026,12 +5146,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R20") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "R277") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5040,7 +5160,7 @@
   (symbol (lib_id "Device:R_US") (at 194.31 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ea29997-365e-41c6-9804-d0e189e54fb8)
-    (property "Reference" "R34" (at 190.5 186.69 0)
+    (property "Reference" "R43" (at 190.5 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 190.5 189.23 0)
@@ -5049,16 +5169,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 195.326 188.214 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 194.31 187.96 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 194.31 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 194.31 187.96 0)
+    (property "Mfr. Part No" "RMCF0603FT100K" (at 194.31 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 194.31 187.96 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 194.31 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 194.31 187.96 0)
+    (property "Description" "RES 100K OHM 1% 1/10W 0603" (at 194.31 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 194.31 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c0a69453-8ff8-4aa5-92e9-3cb5013db93e))
@@ -5066,20 +5189,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R34") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5088,7 +5211,7 @@
   (symbol (lib_id "power:GND") (at 170.18 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a22b7bd4-0017-4be4-b60e-df6e8551448c)
-    (property "Reference" "#PWR018" (at 170.18 198.12 0)
+    (property "Reference" "#PWR?" (at 170.18 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.307 196.1642 0)
@@ -5104,20 +5227,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5126,7 +5249,7 @@
   (symbol (lib_id "Device:C") (at 162.56 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa35a224-5942-481e-b06f-9e27b3ef5c84)
-    (property "Reference" "C26" (at 165.1 133.35 0)
+    (property "Reference" "C31" (at 165.1 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 165.1 135.89 0)
@@ -5135,16 +5258,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 162.56 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 162.56 134.62 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 162.56 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 162.56 134.62 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 162.56 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 162.56 134.62 0)
+    (property "Manufacturer" "TDK Corporation" (at 162.56 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 162.56 134.62 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 162.56 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 162.56 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid de5892da-859b-4875-96a2-4f78eac7da26))
@@ -5152,12 +5278,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C26") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5166,7 +5292,7 @@
   (symbol (lib_id "SierraLobo:MMDT2222") (at 337.82 162.56 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa69bd82-e3ca-40fd-bd43-1eac10740a0e)
-    (property "Reference" "Q6" (at 342.9 161.925 0)
+    (property "Reference" "Q?" (at 342.9 161.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMDT2222A" (at 342.9 164.465 0)
@@ -5178,6 +5304,15 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30125.pdf" (at 337.82 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "Description" "TRANS 2NPN 40V 0.6A SOT363" (at 337.82 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Diodes Incorporated" (at 337.82 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr. Part No" "MMDT2222A-7-F" (at 337.82 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 814bf36e-86e1-4f01-a368-2d3e5795a1b3))
     (pin "4" (uuid 7846576d-e762-4cfc-aaa4-3db9d2982e1b))
     (pin "5" (uuid 21fb697f-c491-4595-8db7-a4f2c7dbe59f))
@@ -5187,10 +5322,10 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
-          (reference "Q6") (unit 2)
+          (reference "Q?") (unit 2)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "Q2") (unit 2)
+          (reference "Q8") (unit 2)
         )
       )
     )
@@ -5199,7 +5334,7 @@
   (symbol (lib_id "Device:R_US") (at 91.44 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b028d6f9-54cb-47b4-8b2c-17712337814e)
-    (property "Reference" "R28" (at 87.63 166.37 0)
+    (property "Reference" "R37" (at 87.63 166.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 87.63 168.91 0)
@@ -5208,16 +5343,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 92.456 167.894 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 91.44 167.64 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 91.44 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 91.44 167.64 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 91.44 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 91.44 167.64 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 91.44 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 91.44 167.64 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 91.44 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 91.44 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 80d449f8-0403-41e8-ab94-2ecbd937a73e))
@@ -5225,20 +5363,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R28") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R103") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5247,7 +5385,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 153.67 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0d57c46-08c2-4498-ac61-cb61825eb143)
-    (property "Reference" "#PWR022" (at 153.67 175.26 0)
+    (property "Reference" "#PWR?" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 153.67 167.894 0)
@@ -5272,10 +5410,10 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -5284,7 +5422,7 @@
   (symbol (lib_id "power:GND") (at 194.31 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b31c1c2a-7752-4865-be54-bfa2418ef184)
-    (property "Reference" "#PWR018" (at 194.31 198.12 0)
+    (property "Reference" "#PWR?" (at 194.31 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.437 196.1642 0)
@@ -5300,20 +5438,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5322,7 +5460,7 @@
   (symbol (lib_id "SierraLobo:MMDT2222") (at 337.82 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b585e830-72c3-41f3-8f8f-58e7012e439c)
-    (property "Reference" "Q6" (at 342.9 175.895 0)
+    (property "Reference" "Q?" (at 342.9 175.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMDT2222A" (at 342.9 178.435 0)
@@ -5334,6 +5472,15 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30125.pdf" (at 337.82 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "Description" "TRANS 2NPN 40V 0.6A SOT363" (at 337.82 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Diodes Incorporated" (at 337.82 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr. Part No" "MMDT2222A-7-F" (at 337.82 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 9fe007b5-e122-41dd-b52b-2a72bf2b6af9))
     (pin "4" (uuid 6b4d97a1-09d3-4263-87f6-9d316a08f53f))
     (pin "5" (uuid 920d82fc-7b34-4655-9e18-e60217d93e39))
@@ -5343,10 +5490,10 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
-          (reference "Q6") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "Q2") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -5355,7 +5502,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b662c605-0404-4202-9249-75b2eeca30d8)
-    (property "Reference" "R25" (at 241.3 158.75 90)
+    (property "Reference" "R46" (at 241.3 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 250.19 158.75 90)
@@ -5364,16 +5511,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.634 159.004 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 246.38 160.02 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 246.38 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 246.38 160.02 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 246.38 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 246.38 160.02 0)
+    (property "Mfr. Part No" "RMCF0603ZT0R00" (at 246.38 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 246.38 160.02 0)
+    (property "Description" "RES 0 OHM JUMPER 1/10W 0603" (at 246.38 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 246.38 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b0c8861b-815a-4975-a4f4-a27d536bb5bd))
@@ -5381,7 +5531,7 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R25") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -5390,7 +5540,7 @@
   (symbol (lib_id "power:GND") (at 66.04 228.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b773a519-9c70-4719-9dc8-5bc14fd41f4b)
-    (property "Reference" "#PWR073" (at 66.04 234.95 0)
+    (property "Reference" "#PWR083" (at 66.04 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 232.41 0)
@@ -5406,20 +5556,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5428,7 +5578,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 265.43 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be88a2a2-0c16-4d06-8ae8-19b166cf8126)
-    (property "Reference" "#PWR046" (at 265.43 80.01 0)
+    (property "Reference" "#PWR0102" (at 265.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 265.43 72.644 0)
@@ -5453,12 +5603,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#SUPPLY09") (unit 1)
+          (reference "#SUPPLY?") (unit 1)
         )
       )
     )
@@ -5467,7 +5617,7 @@
   (symbol (lib_id "power:GND") (at 340.36 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf529678-a712-47b1-abd7-4ad58ee0e2b3)
-    (property "Reference" "#PWR018" (at 340.36 191.77 0)
+    (property "Reference" "#PWR?" (at 340.36 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 340.487 189.8142 0)
@@ -5483,20 +5633,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5505,7 +5655,7 @@
   (symbol (lib_id "SierraLobo:+3V3A") (at 256.54 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf7ec681-6f84-4b0e-b44d-7120717de60b)
-    (property "Reference" "#PWR051" (at 256.54 100.33 0)
+    (property "Reference" "#PWR0100" (at 256.54 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3A" (at 256.54 92.71 0)
@@ -5530,7 +5680,7 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -5539,7 +5689,7 @@
   (symbol (lib_id "power:GND") (at 358.14 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c12e02be-bfbe-4507-9de7-7e220ae01dd1)
-    (property "Reference" "#PWR057" (at 358.14 124.46 0)
+    (property "Reference" "#PWR0108" (at 358.14 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 358.267 122.5042 0)
@@ -5555,18 +5705,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5575,7 +5725,7 @@
   (symbol (lib_id "Device:C") (at 256.54 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c28b6b9d-6f2a-4569-9880-0683a45cad84)
-    (property "Reference" "C9" (at 259.461 99.1616 0)
+    (property "Reference" "C?" (at 259.461 99.1616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 259.461 101.473 0)
@@ -5584,16 +5734,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 257.5052 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 256.54 100.33 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 256.54 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 256.54 100.33 0)
+    (property "Description" "CAP CER 10UF 25V X7S 0805" (at 256.54 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 256.54 100.33 0)
+    (property "Manufacturer" "TDK Corporation" (at 256.54 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 256.54 100.33 0)
+    (property "Mfr. Part No" "CGA4J1X7S1E106K125AE" (at 256.54 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "25V" (at 256.54 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d98da535-9fdd-4413-932d-0d298c2a07f6))
@@ -5601,20 +5754,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C25") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "C47") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5623,7 +5776,7 @@
   (symbol (lib_id "Device:R_US") (at 246.38 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9981d9a-ff03-4389-a40d-217f56939def)
-    (property "Reference" "R22" (at 241.3 153.67 90)
+    (property "Reference" "R44" (at 241.3 153.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 250.19 153.67 90)
@@ -5632,16 +5785,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.634 153.924 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 246.38 154.94 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 246.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 246.38 154.94 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 246.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 246.38 154.94 0)
+    (property "Mfr. Part No" "RMCF0603ZT0R00" (at 246.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 246.38 154.94 0)
+    (property "Description" "RES 0 OHM JUMPER 1/10W 0603" (at 246.38 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 246.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid baa04380-97a5-437f-8068-c504af0049b2))
@@ -5649,7 +5805,7 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R22") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -5658,25 +5814,28 @@
   (symbol (lib_id "Device:C") (at 74.93 34.29 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd73a260-3605-4dc9-ba85-5e4a39882b03)
-    (property "Reference" "C12" (at 68.58 33.02 90)
+    (property "Reference" "C28" (at 68.58 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8pF" (at 68.58 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 74.93 34.29 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 74.93 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.93 34.29 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_hightemp_en.pdf" (at 74.93 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 74.93 34.29 0)
+    (property "Mfr. Part No" "CGA2B2NP01H080D050BA" (at 74.93 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 74.93 34.29 0)
+    (property "Manufacturer" "TDK Corporation" (at 74.93 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 74.93 34.29 0)
+    (property "Description" "CAP CER 8PF 50V NP0 0402" (at 74.93 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 74.93 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b2054b8e-a7d7-4465-b4a5-25ac3133ced7))
@@ -5684,12 +5843,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C12") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C21") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5698,7 +5857,7 @@
   (symbol (lib_id "power:VAA") (at 152.4 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdf2aa4b-e60d-4365-8b8b-af85a7472709)
-    (property "Reference" "#PWR024" (at 152.4 124.46 0)
+    (property "Reference" "#PWR?" (at 152.4 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VAA" (at 152.4 116.84 0)
@@ -5714,13 +5873,13 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -5729,7 +5888,7 @@
   (symbol (lib_id "power:GND") (at 289.56 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce1c43a9-8ac1-4d75-ae06-1f891f52b656)
-    (property "Reference" "#PWR050" (at 289.56 90.17 0)
+    (property "Reference" "#PWR0105" (at 289.56 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 87.63 0)
@@ -5745,12 +5904,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -5759,7 +5918,7 @@
   (symbol (lib_id "Device:D") (at 386.08 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2493316-045c-44c1-b394-d3ac958f21c9)
-    (property "Reference" "LED4" (at 388.62 167.005 90)
+    (property "Reference" "LED?" (at 388.62 167.005 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 388.62 169.545 90)
@@ -5768,7 +5927,7 @@
     (property "Footprint" "SierraLobo:APA2107x" (at 386.08 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 386.08 167.64 0)
+    (property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APA2107LSECK-J3-PRV.pdf" (at 386.08 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Sim.Device" "D" (at 386.08 167.64 0)
@@ -5777,7 +5936,7 @@
     (property "Sim.Pins" "1=K 2=A" (at 386.08 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "APA2107LSECK" (at 386.08 167.64 0)
+    (property "Mfr. Part No" "APA2107LSECK/J3-PRV" (at 386.08 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Kingbright" (at 386.08 167.64 0)
@@ -5791,15 +5950,15 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/82f4e623-91fc-4ebc-ad45-559ce6470877"
-          (reference "LED4") (unit 1)
+          (reference "LED?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "LED2") (unit 1)
+          (reference "LED4") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "LED11") (unit 1)
+          (reference "LED?") (unit 1)
         )
       )
     )
@@ -5808,7 +5967,7 @@
   (symbol (lib_id "Device:R_US") (at 74.93 74.93 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d579b561-1f82-458f-aff9-08068b188275)
-    (property "Reference" "R15" (at 71.12 72.39 0)
+    (property "Reference" "R36" (at 71.12 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 71.12 74.93 0)
@@ -5817,16 +5976,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 75.946 74.676 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.93 74.93 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 74.93 74.93 0)
+    (property "Mfr. Part No" "RMCF0603FT10K0" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 74.93 74.93 0)
+    (property "Manufacturer" "Stackpole Electronics Inc" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 74.93 74.93 0)
+    (property "Description" "RES 10K OHM 1% 1/10W 0603" (at 74.93 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "100mW" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 60e42fbc-35a1-4953-b060-4824baa2697b))
@@ -5834,20 +5996,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "R15") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "R78") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -5856,7 +6018,7 @@
   (symbol (lib_id "SierraLobo:+3V3D") (at 95.25 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d686d6d2-a6cd-436b-b65c-40e8cbc60225)
-    (property "Reference" "#PWR022" (at 95.25 215.9 0)
+    (property "Reference" "#PWR?" (at 95.25 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3D" (at 95.25 208.534 0)
@@ -5881,10 +6043,10 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -5924,7 +6086,7 @@
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "Y1") (unit 1)
+          (reference "Y?") (unit 1)
         )
       )
     )
@@ -5933,7 +6095,7 @@
   (symbol (lib_id "Device:C") (at 250.19 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4ef490f-957a-44a1-a3ca-18c7f62fa709)
-    (property "Reference" "C9" (at 247.269 99.1616 0)
+    (property "Reference" "C?" (at 247.269 99.1616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 247.269 101.473 0)
@@ -5942,16 +6104,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 249.2248 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.19 100.33 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 250.19 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 250.19 100.33 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 250.19 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 250.19 100.33 0)
+    (property "Manufacturer" "TDK Corporation" (at 250.19 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 250.19 100.33 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 250.19 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 250.19 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2b4a4818-79ab-4e1f-bb35-17c691d4c153))
@@ -5959,20 +6124,20 @@
     (instances
       (project "RP2040_minimal"
         (path "/24a54a26-a515-4377-8b17-55db9d02240f"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C24") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "C47") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -5981,7 +6146,7 @@
   (symbol (lib_id "Device:C") (at 63.5 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5af7519-8005-402f-8c73-111fe171b626)
-    (property "Reference" "C14" (at 59.69 73.025 0)
+    (property "Reference" "C27" (at 59.69 73.025 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF" (at 59.69 75.565 0)
@@ -5990,16 +6155,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 63.5 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 63.5 73.66 0)
+    (property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf" (at 63.5 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. Part No" "" (at 63.5 73.66 0)
+    (property "Mfr. Part No" "CGA3E2X7R1H104K080AE" (at 63.5 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 63.5 73.66 0)
+    (property "Manufacturer" "TDK Corporation" (at 63.5 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 63.5 73.66 0)
+    (property "Description" "CAP CER 0.1UF 50V X7R 0603" (at 63.5 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50V" (at 63.5 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2408d8dd-89eb-4290-a096-73c049474b9e))
@@ -6007,20 +6175,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "C14") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "C33") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -6029,7 +6197,7 @@
   (symbol (lib_id "power:GND") (at 91.44 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eab5e8ca-3b4d-4703-8724-962b58fc6b91)
-    (property "Reference" "#PWR066" (at 91.44 190.5 0)
+    (property "Reference" "#PWR088" (at 91.44 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 187.96 0)
@@ -6045,20 +6213,20 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6067,7 +6235,7 @@
   (symbol (lib_id "power:GND") (at 337.82 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7d58d9b-fa71-488a-b2fd-08ba9f2092b7)
-    (property "Reference" "#PWR052" (at 337.82 104.14 0)
+    (property "Reference" "#PWR0106" (at 337.82 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.947 102.1842 0)
@@ -6083,18 +6251,18 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -6112,7 +6280,7 @@
     (property "Footprint" "SierraLobo:KMR2_4.6X2.8" (at 45.72 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 45.72 173.99 0)
+    (property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf" (at 45.72 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr. Part No" "KMR231NG LFS" (at 45.72 173.99 0)
@@ -6121,7 +6289,10 @@
     (property "Manufacturer" "C&K" (at 45.72 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount" (at 45.72 173.99 0)
+    (property "Description" "SWITCH TACTILE SPST-NO 0.05A 32V" (at 45.72 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value2" "50mA" (at 45.72 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f1991b7d-c9e6-488d-85a5-e5e8f3afc53c))
@@ -6134,18 +6305,18 @@
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "SW2") (unit 1)
+          (reference "SW?") (unit 1)
         )
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/81f44d01-bc9f-4b7f-b957-1cda63083cdb"
-          (reference "SW1") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
       (project "payload-interface-board"
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48"
-          (reference "SW2") (unit 1)
+          (reference "SW?") (unit 1)
         )
         (path "/dc2801a1-d539-4721-b31f-fe196b9f13df/24d21d3f-37df-43db-a302-5a6c43abae48/97d778d4-4fd0-40a5-8197-b6d6589701fa"
-          (reference "SW2") (unit 1)
+          (reference "SW?") (unit 1)
         )
       )
     )
@@ -6154,7 +6325,7 @@
   (symbol (lib_id "power:GND") (at 265.43 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fadb8ef2-da52-41e8-8095-ca69d6bb176c)
-    (property "Reference" "#PWR049" (at 265.43 90.17 0)
+    (property "Reference" "#PWR0103" (at 265.43 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 87.63 0)
@@ -6170,12 +6341,12 @@
     (instances
       (project "magnetotorqer-drive-board"
         (path "/612afcad-8da9-4dff-bf3c-8828929809ff/0b2ade16-2e66-40b3-a5ca-aae3c5ec3394"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
       (project "mainboard"
         (path "/d1441985-7b63-4bf8-a06d-c70da2e3b78b/00000000-0000-0000-0000-00005cec5a72"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

@@ -1,0 +1,1528 @@
+** Drc report for C:\Users\cjhillis\Documents\LOCAL\Github\mtdc-hw\revA\magnetotorqer-drive-board.kicad_pcb **
+** Created on 2023-06-30 16:39:08 **
+
+** Found 390 DRC violations **
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 6.89 mils) (B.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(4042.00 mils, 2568.98 mils): Track [GND] on B.Cu, length 35.98 mils
+    @(4012.60 mils, 2575.59 mils): Track [GND] on B.Cu, length 22.80 mils
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.21 mils) (In2.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(4760.00 mils, 3375.00 mils): Zone [+5VA] on In2.Cu
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.21 mils) (In2.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(5380.00 mils, 3285.00 mils): Zone [+1V65A] on In2.Cu
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.21 mils) (In2.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(5380.00 mils, 3285.00 mils): Zone [+1V65A] on In2.Cu
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 5.53 mils) (In2.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(4260.00 mils, 6000.00 mils): Zone [+3V3D] on In2.Cu
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 6.37 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(3499.21 mils, 3877.07 mils): Pad 54 [GND] of U12 on F.Cu
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 6.62 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(3672.93 mils, 4247.64 mils): Pad 33 [GND] of U12 on F.Cu
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 6.37 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(3400.79 mils, 4322.93 mils): Pad 22 [GND] of U12 on F.Cu
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.07 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.73 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.32 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.73 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.37 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 5.53 mils) (In1.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(6050.00 mils, 6000.00 mils): Zone [GND] on In1.Cu
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 3.24 mils) (B.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.73 mils) (F.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(2500.00 mils, 2020.00 mils): Zone [GND] on F.Cu and 1 more
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 8.00 mils; actual 7.49 mils) (B.Cu)
+    Rule: board setup constraints; Severity: warning
+    @(3340.00 mils, 4049.49 mils): Track [GND] on B.Cu, length 38.11 mils
+    @(3310.00 mils, 4049.49 mils): Track [GND] on B.Cu, length 30.00 mils
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4546.77 mils, 4713.39 mils): Pad 1 [+5VA] of U18 on F.Cu
+    @(4527.09 mils, 4713.39 mils): Pad 2 [/Y Driver/Adjustable Buck Regulator 1/DPOT_IN] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4527.09 mils, 4713.39 mils): Pad 2 [/Y Driver/Adjustable Buck Regulator 1/DPOT_IN] of U18 on F.Cu
+    @(4507.40 mils, 4713.39 mils): Pad 3 [GND] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4487.72 mils, 4713.39 mils): Pad 4 [GND] of U18 on F.Cu
+    @(4468.03 mils, 4713.39 mils): Pad 5 [Net-(U18-EXT_CAP)] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4468.03 mils, 4886.61 mils): Pad 6 [GND] of U18 on F.Cu
+    @(4487.72 mils, 4886.61 mils): Pad 7 [Net-(U18-SDO)] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4487.72 mils, 4886.61 mils): Pad 7 [Net-(U18-SDO)] of U18 on F.Cu
+    @(4507.40 mils, 4886.61 mils): Pad 8 [Net-(U18-DIN)] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4507.40 mils, 4886.61 mils): Pad 8 [Net-(U18-DIN)] of U18 on F.Cu
+    @(4527.09 mils, 4886.61 mils): Pad 9 [Net-(U18-SCK)] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4527.09 mils, 4886.61 mils): Pad 9 [Net-(U18-SCK)] of U18 on F.Cu
+    @(4546.77 mils, 4886.61 mils): Pad 10 [Net-(U18-~{SYNC})] of U18 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4556.77 mils, 5453.39 mils): Pad 1 [+5VA] of U23 on F.Cu
+    @(4537.09 mils, 5453.39 mils): Pad 2 [/Z Driver/Adjustable Buck Regulator 1/DPOT_IN] of U23 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4537.09 mils, 5453.39 mils): Pad 2 [/Z Driver/Adjustable Buck Regulator 1/DPOT_IN] of U23 on F.Cu
+    @(4517.40 mils, 5453.39 mils): Pad 3 [GND] of U23 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4497.72 mils, 5453.39 mils): Pad 4 [GND] of U23 on F.Cu
+    @(4478.03 mils, 5453.39 mils): Pad 5 [Net-(U23-EXT_CAP)] of U23 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4478.03 mils, 5626.61 mils): Pad 6 [GND] of U23 on F.Cu
+    @(4497.72 mils, 5626.61 mils): Pad 7 [Net-(U23-SDO)] of U23 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4497.72 mils, 5626.61 mils): Pad 7 [Net-(U23-SDO)] of U23 on F.Cu
+    @(4517.40 mils, 5626.61 mils): Pad 8 [Net-(U23-DIN)] of U23 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4517.40 mils, 5626.61 mils): Pad 8 [Net-(U23-DIN)] of U23 on F.Cu
+    @(4537.09 mils, 5626.61 mils): Pad 9 [Net-(U23-SCK)] of U23 on F.Cu
+[clearance]: Clearance violation (board minimum clearance 8.00 mils; actual 7.87 mils)
+    Local override; Severity: error
+    @(4537.09 mils, 5626.61 mils): Pad 9 [Net-(U23-SCK)] of U23 on F.Cu
+    @(4556.77 mils, 5626.61 mils): Pad 10 [Net-(U23-~{SYNC})] of U23 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4546.77 mils, 3973.39 mils): Pad 1 [+5VA] of U14 on F.Cu
+    @(4527.09 mils, 3973.39 mils): Pad 2 [/X Driver/Adjustable Buck Regulator 1/DPOT_IN] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4527.09 mils, 3973.39 mils): Pad 2 [/X Driver/Adjustable Buck Regulator 1/DPOT_IN] of U14 on F.Cu
+    @(4507.40 mils, 3973.39 mils): Pad 3 [GND] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4487.72 mils, 3973.39 mils): Pad 4 [GND] of U14 on F.Cu
+    @(4468.03 mils, 3973.39 mils): Pad 5 [Net-(U14-EXT_CAP)] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4468.03 mils, 4146.61 mils): Pad 6 [GND] of U14 on F.Cu
+    @(4487.72 mils, 4146.61 mils): Pad 7 [Net-(U14-SDO)] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4487.72 mils, 4146.61 mils): Pad 7 [Net-(U14-SDO)] of U14 on F.Cu
+    @(4507.40 mils, 4146.61 mils): Pad 8 [Net-(U14-DIN)] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4507.40 mils, 4146.61 mils): Pad 8 [Net-(U14-DIN)] of U14 on F.Cu
+    @(4527.09 mils, 4146.61 mils): Pad 9 [Net-(U14-SCK)] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(4527.09 mils, 4146.61 mils): Pad 9 [Net-(U14-SCK)] of U14 on F.Cu
+    @(4546.77 mils, 4146.61 mils): Pad 10 [Net-(U14-~{SYNC})] of U14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 3952.36 mils): Pad 1 [/Control/XTAL1] of U12 on F.Cu
+    @(3227.07 mils, 3972.05 mils): Pad 2 [/Control/XTAL2] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 3972.05 mils): Pad 2 [/Control/XTAL2] of U12 on F.Cu
+    @(3227.07 mils, 3991.73 mils): Pad 3 [/X_VRSEN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 3991.73 mils): Pad 3 [/X_VRSEN] of U12 on F.Cu
+    @(3227.07 mils, 4011.42 mils): Pad 4 [/Y_VRSEN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4011.42 mils): Pad 4 [/Y_VRSEN] of U12 on F.Cu
+    @(3227.07 mils, 4031.10 mils): Pad 5 [/Y_REG_EN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4031.10 mils): Pad 5 [/Y_REG_EN] of U12 on F.Cu
+    @(3227.07 mils, 4050.79 mils): Pad 6 [/~{Y_SYNC}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4050.79 mils): Pad 6 [/~{Y_SYNC}] of U12 on F.Cu
+    @(3227.07 mils, 4070.47 mils): Pad 7 [GND] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4070.47 mils): Pad 7 [GND] of U12 on F.Cu
+    @(3227.07 mils, 4090.16 mils): Pad 8 [+3V3A] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4090.16 mils): Pad 8 [+3V3A] of U12 on F.Cu
+    @(3227.07 mils, 4109.84 mils): Pad 9 [/~{Y_HB_SLEEP}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4109.84 mils): Pad 9 [/~{Y_HB_SLEEP}] of U12 on F.Cu
+    @(3227.07 mils, 4129.53 mils): Pad 10 [/Y_HB_PH] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4129.53 mils): Pad 10 [/Y_HB_PH] of U12 on F.Cu
+    @(3227.07 mils, 4149.21 mils): Pad 11 [/Z_VRSEN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4149.21 mils): Pad 11 [/Z_VRSEN] of U12 on F.Cu
+    @(3227.07 mils, 4168.90 mils): Pad 12 [/X_TEMP] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4168.90 mils): Pad 12 [/X_TEMP] of U12 on F.Cu
+    @(3227.07 mils, 4188.58 mils): Pad 13 [/Y_TEMP] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4188.58 mils): Pad 13 [/Y_TEMP] of U12 on F.Cu
+    @(3227.07 mils, 4208.27 mils): Pad 14 [/Z_TEMP] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4208.27 mils): Pad 14 [/Z_TEMP] of U12 on F.Cu
+    @(3227.07 mils, 4227.95 mils): Pad 15 [/TEMP_B] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3227.07 mils, 4227.95 mils): Pad 15 [/TEMP_B] of U12 on F.Cu
+    @(3227.07 mils, 4247.64 mils): Pad 16 [/Control/VAA_ADC] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3302.36 mils, 4322.93 mils): Pad 17 [/Control/QSPI/DATA0] of U12 on F.Cu
+    @(3322.05 mils, 4322.93 mils): Pad 18 [/Control/QSPI/DATA1] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3322.05 mils, 4322.93 mils): Pad 18 [/Control/QSPI/DATA1] of U12 on F.Cu
+    @(3341.73 mils, 4322.93 mils): Pad 19 [/Control/QSPI/DATA2] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3341.73 mils, 4322.93 mils): Pad 19 [/Control/QSPI/DATA2] of U12 on F.Cu
+    @(3361.42 mils, 4322.93 mils): Pad 20 [/Control/QSPI/DATA3] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3361.42 mils, 4322.93 mils): Pad 20 [/Control/QSPI/DATA3] of U12 on F.Cu
+    @(3381.10 mils, 4322.93 mils): Pad 21 [+3V3D] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3381.10 mils, 4322.93 mils): Pad 21 [+3V3D] of U12 on F.Cu
+    @(3400.79 mils, 4322.93 mils): Pad 22 [GND] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3400.79 mils, 4322.93 mils): Pad 22 [GND] of U12 on F.Cu
+    @(3420.47 mils, 4322.93 mils): Pad 23 [/Control/QSPI/SCK] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3420.47 mils, 4322.93 mils): Pad 23 [/Control/QSPI/SCK] of U12 on F.Cu
+    @(3440.16 mils, 4322.93 mils): Pad 24 [/Control/QSPI/CS] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3440.16 mils, 4322.93 mils): Pad 24 [/Control/QSPI/CS] of U12 on F.Cu
+    @(3459.84 mils, 4322.93 mils): Pad 25 [/Y_PH_EN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3459.84 mils, 4322.93 mils): Pad 25 [/Y_PH_EN] of U12 on F.Cu
+    @(3479.53 mils, 4322.93 mils): Pad 26 [/Z_REG_EN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3479.53 mils, 4322.93 mils): Pad 26 [/Z_REG_EN] of U12 on F.Cu
+    @(3499.21 mils, 4322.93 mils): Pad 27 [/~{Z_SYNC}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3499.21 mils, 4322.93 mils): Pad 27 [/~{Z_SYNC}] of U12 on F.Cu
+    @(3518.90 mils, 4322.93 mils): Pad 28 [/~{Z_HB_SLEEP}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3518.90 mils, 4322.93 mils): Pad 28 [/~{Z_HB_SLEEP}] of U12 on F.Cu
+    @(3538.58 mils, 4322.93 mils): Pad 29 [/Control/PA12] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3538.58 mils, 4322.93 mils): Pad 29 [/Control/PA12] of U12 on F.Cu
+    @(3558.27 mils, 4322.93 mils): Pad 30 [/X_REG_EN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3558.27 mils, 4322.93 mils): Pad 30 [/X_REG_EN] of U12 on F.Cu
+    @(3577.95 mils, 4322.93 mils): Pad 31 [/Control/PA12] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4247.64 mils): Pad 33 [GND] of U12 on F.Cu
+    @(3672.93 mils, 4227.95 mils): Pad 34 [+3V3D] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4227.95 mils): Pad 34 [+3V3D] of U12 on F.Cu
+    @(3672.93 mils, 4208.27 mils): Pad 35 [/X_PH_EN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4208.27 mils): Pad 35 [/X_PH_EN] of U12 on F.Cu
+    @(3672.93 mils, 4188.58 mils): Pad 36 [/SCK] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4188.58 mils): Pad 36 [/SCK] of U12 on F.Cu
+    @(3672.93 mils, 4168.90 mils): Pad 37 [/Control/MISO] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4168.90 mils): Pad 37 [/Control/MISO] of U12 on F.Cu
+    @(3672.93 mils, 4149.21 mils): Pad 38 [/MOSI] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4149.21 mils): Pad 38 [/MOSI] of U12 on F.Cu
+    @(3672.93 mils, 4129.53 mils): Pad 39 [Net-(U12-PB16)] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4129.53 mils): Pad 39 [Net-(U12-PB16)] of U12 on F.Cu
+    @(3672.93 mils, 4109.84 mils): Pad 40 [Net-(U12-PB17)] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4109.84 mils): Pad 40 [Net-(U12-PB17)] of U12 on F.Cu
+    @(3672.93 mils, 4090.16 mils): Pad 41 [/Control/PA12] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4090.16 mils): Pad 41 [/Control/PA12] of U12 on F.Cu
+    @(3672.93 mils, 4070.47 mils): Pad 42 [/Control/NEOPIXEL_DIN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4070.47 mils): Pad 42 [/Control/NEOPIXEL_DIN] of U12 on F.Cu
+    @(3672.93 mils, 4050.79 mils): Pad 43 [/HARD_RESET] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4050.79 mils): Pad 43 [/HARD_RESET] of U12 on F.Cu
+    @(3672.93 mils, 4031.10 mils): Pad 44 [/Control/WDT_WDI] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4031.10 mils): Pad 44 [/Control/WDT_WDI] of U12 on F.Cu
+    @(3672.93 mils, 4011.42 mils): Pad 45 [/D+] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 4011.42 mils): Pad 45 [/D+] of U12 on F.Cu
+    @(3672.93 mils, 3991.73 mils): Pad 46 [/D-] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 3991.73 mils): Pad 46 [/D-] of U12 on F.Cu
+    @(3672.93 mils, 3972.05 mils): Pad 47 [GND] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3672.93 mils, 3972.05 mils): Pad 47 [GND] of U12 on F.Cu
+    @(3672.93 mils, 3952.36 mils): Pad 48 [+3V3D] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3597.64 mils, 3877.07 mils): Pad 49 [Net-(U12-PB22)] of U12 on F.Cu
+    @(3577.95 mils, 3877.07 mils): Pad 50 [Net-(U12-PB23)] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3577.95 mils, 3877.07 mils): Pad 50 [Net-(U12-PB23)] of U12 on F.Cu
+    @(3558.27 mils, 3877.07 mils): Pad 51 [/~{FAULT}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3558.27 mils, 3877.07 mils): Pad 51 [/~{FAULT}] of U12 on F.Cu
+    @(3538.58 mils, 3877.07 mils): Pad 52 [/~{RST}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3538.58 mils, 3877.07 mils): Pad 52 [/~{RST}] of U12 on F.Cu
+    @(3518.90 mils, 3877.07 mils): Pad 53 [/Control/VDDCORE] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3518.90 mils, 3877.07 mils): Pad 53 [/Control/VDDCORE] of U12 on F.Cu
+    @(3499.21 mils, 3877.07 mils): Pad 54 [GND] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3499.21 mils, 3877.07 mils): Pad 54 [GND] of U12 on F.Cu
+    @(3479.53 mils, 3877.07 mils): Pad 55 [/Control/VSW] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3479.53 mils, 3877.07 mils): Pad 55 [/Control/VSW] of U12 on F.Cu
+    @(3459.84 mils, 3877.07 mils): Pad 56 [+3V3D] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3459.84 mils, 3877.07 mils): Pad 56 [+3V3D] of U12 on F.Cu
+    @(3440.16 mils, 3877.07 mils): Pad 57 [/Control/SWCLK] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3440.16 mils, 3877.07 mils): Pad 57 [/Control/SWCLK] of U12 on F.Cu
+    @(3420.47 mils, 3877.07 mils): Pad 58 [/Control/SWDIO] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3420.47 mils, 3877.07 mils): Pad 58 [/Control/SWDIO] of U12 on F.Cu
+    @(3400.79 mils, 3877.07 mils): Pad 59 [/Z_HB_PH] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3400.79 mils, 3877.07 mils): Pad 59 [/Z_HB_PH] of U12 on F.Cu
+    @(3381.10 mils, 3877.07 mils): Pad 60 [/Z_PH_EN] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3381.10 mils, 3877.07 mils): Pad 60 [/Z_PH_EN] of U12 on F.Cu
+    @(3361.42 mils, 3877.07 mils): Pad 61 [/~{X_SYNC}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3361.42 mils, 3877.07 mils): Pad 61 [/~{X_SYNC}] of U12 on F.Cu
+    @(3341.73 mils, 3877.07 mils): Pad 62 [/~{X_HB_SLEEP}] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3341.73 mils, 3877.07 mils): Pad 62 [/~{X_HB_SLEEP}] of U12 on F.Cu
+    @(3322.05 mils, 3877.07 mils): Pad 63 [/X_HB_PH] of U12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 8.00 mils; actual 7.87 mils)
+    Rule: netclass 'Default'; Severity: error
+    @(3322.05 mils, 3877.07 mils): Pad 63 [/X_HB_PH] of U12 on F.Cu
+    @(3302.36 mils, 3877.07 mils): Pad 64 [/TEMP_A] of U12 on F.Cu
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(3834.96 mils, 2560.00 mils): Footprint R4
+    @(3770.00 mils, 2560.00 mils): Footprint R3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(4640.00 mils, 3905.04 mils): Footprint R64
+    @(4640.00 mils, 3970.00 mils): Footprint R65
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(3835.00 mils, 2640.00 mils): Footprint R2
+    @(3770.04 mils, 2640.00 mils): Footprint R1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(4640.00 mils, 4710.00 mils): Footprint R84
+    @(4640.00 mils, 4645.04 mils): Footprint R83
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(4650.00 mils, 5450.00 mils): Footprint R103
+    @(4650.00 mils, 5385.04 mils): Footprint R102
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 17.54 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(5830.00 mils, 2215.00 mils): Line on Edge.Cuts
+    @(5800.00 mils, 2230.00 mils): Via [GND] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3314.32 mils, 2198.31 mils): Pad 3 [unconnected-(P1-Pin_3-Pad3)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3314.32 mils, 2198.31 mils): Pad 4 [unconnected-(P1-Pin_4-Pad4)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3345.82 mils, 2198.31 mils): Pad 5 [unconnected-(P1-Pin_5-Pad5)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3345.82 mils, 2198.31 mils): Pad 6 [unconnected-(P1-Pin_6-Pad6)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3377.32 mils, 2198.31 mils): Pad 7 [unconnected-(P1-Pin_7-Pad7)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3377.32 mils, 2198.31 mils): Pad 8 [unconnected-(P1-Pin_8-Pad8)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3408.81 mils, 2198.31 mils): Pad 9 [unconnected-(P1-Pin_9-Pad9)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3408.81 mils, 2198.31 mils): Pad 10 [unconnected-(P1-Pin_10-Pad10)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3440.31 mils, 2198.31 mils): Pad 11 [unconnected-(P1-Pin_11-Pad11)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3440.31 mils, 2198.31 mils): Pad 12 [unconnected-(P1-Pin_12-Pad12)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3471.80 mils, 2198.31 mils): Pad 13 [unconnected-(P1-Pin_13-Pad13)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3471.80 mils, 2198.31 mils): Pad 14 [unconnected-(P1-Pin_14-Pad14)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3503.30 mils, 2198.31 mils): Pad 15 [/BUS_LED_PWR] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3503.30 mils, 2198.31 mils): Pad 16 [unconnected-(P1-Pin_16-Pad16)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3534.80 mils, 2198.31 mils): Pad 17 [unconnected-(P1-Pin_17-Pad17)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3534.80 mils, 2198.31 mils): Pad 18 [unconnected-(P1-Pin_18-Pad18)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3566.29 mils, 2198.31 mils): Pad 19 [unconnected-(P1-Pin_19-Pad19)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3566.29 mils, 2198.31 mils): Pad 20 [unconnected-(P1-Pin_20-Pad20)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3597.79 mils, 2198.31 mils): Pad 21 [unconnected-(P1-Pin_21-Pad21)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3597.79 mils, 2198.31 mils): Pad 22 [unconnected-(P1-Pin_22-Pad22)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3629.28 mils, 2198.31 mils): Pad 23 [unconnected-(P1-Pin_23-Pad23)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3629.28 mils, 2198.31 mils): Pad 24 [unconnected-(P1-Pin_24-Pad24)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3660.78 mils, 2198.31 mils): Pad 25 [unconnected-(P1-Pin_25-Pad25)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3660.78 mils, 2198.31 mils): Pad 26 [unconnected-(P1-Pin_26-Pad26)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3692.28 mils, 2198.31 mils): Pad 27 [unconnected-(P1-Pin_27-Pad27)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3692.28 mils, 2198.31 mils): Pad 28 [unconnected-(P1-Pin_28-Pad28)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3723.77 mils, 2198.31 mils): Pad 29 [unconnected-(P1-Pin_29-Pad29)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3723.77 mils, 2198.31 mils): Pad 30 [unconnected-(P1-Pin_30-Pad30)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3755.27 mils, 2198.31 mils): Pad 31 [unconnected-(P1-Pin_31-Pad31)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3755.27 mils, 2198.31 mils): Pad 32 [unconnected-(P1-Pin_32-Pad32)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3786.76 mils, 2198.31 mils): Pad 33 [unconnected-(P1-Pin_33-Pad33)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3786.76 mils, 2198.31 mils): Pad 34 [unconnected-(P1-Pin_34-Pad34)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3818.26 mils, 2198.31 mils): Pad 35 [GND] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3818.26 mils, 2198.31 mils): Pad 36 [GND] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3849.76 mils, 2198.31 mils): Pad 37 [unconnected-(P1-Pin_37-Pad37)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3849.76 mils, 2198.31 mils): Pad 38 [unconnected-(P1-Pin_38-Pad38)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3881.25 mils, 2198.31 mils): Pad 39 [unconnected-(P1-Pin_39-Pad39)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3881.25 mils, 2198.31 mils): Pad 40 [unconnected-(P1-Pin_40-Pad40)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3912.75 mils, 2198.31 mils): Pad 41 [/RX_4] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3912.75 mils, 2198.31 mils): Pad 42 [/TX_4] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3944.24 mils, 2198.31 mils): Pad 43 [/~{FAULT}] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3944.24 mils, 2198.31 mils): Pad 44 [/PWR_EN] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3975.74 mils, 2198.31 mils): Pad 45 [unconnected-(P1-Pin_45-Pad45)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(3975.74 mils, 2198.31 mils): Pad 46 [unconnected-(P1-Pin_46-Pad46)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4007.24 mils, 2198.31 mils): Pad 47 [unconnected-(P1-Pin_47-Pad47)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4007.24 mils, 2198.31 mils): Pad 48 [unconnected-(P1-Pin_48-Pad48)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4038.73 mils, 2198.31 mils): Pad 49 [unconnected-(P1-Pin_49-Pad49)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4038.73 mils, 2198.31 mils): Pad 50 [unconnected-(P1-Pin_50-Pad50)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4070.23 mils, 2198.31 mils): Pad 51 [unconnected-(P1-Pin_51-Pad51)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4070.23 mils, 2198.31 mils): Pad 52 [unconnected-(P1-Pin_52-Pad52)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4101.72 mils, 2198.31 mils): Pad 53 [unconnected-(P1-Pin_53-Pad53)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4101.72 mils, 2198.31 mils): Pad 54 [unconnected-(P1-Pin_54-Pad54)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4133.22 mils, 2198.31 mils): Pad 55 [unconnected-(P1-Pin_55-Pad55)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4133.22 mils, 2198.31 mils): Pad 56 [unconnected-(P1-Pin_56-Pad56)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4164.72 mils, 2198.31 mils): Pad 57 [unconnected-(P1-Pin_57-Pad57)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4164.72 mils, 2198.31 mils): Pad 58 [unconnected-(P1-Pin_58-Pad58)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4196.21 mils, 2198.31 mils): Pad 59 [unconnected-(P1-Pin_59-Pad59)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4196.21 mils, 2198.31 mils): Pad 60 [unconnected-(P1-Pin_60-Pad60)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4227.71 mils, 2198.31 mils): Pad 61 [unconnected-(P1-Pin_61-Pad61)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(3248.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4227.71 mils, 2198.31 mils): Pad 62 [unconnected-(P1-Pin_62-Pad62)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.97 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4290.00 mils, 2315.00 mils): Line on Edge.Cuts
+    @(4259.21 mils, 2198.31 mils): Pad 63 [unconnected-(P1-Pin_63-Pad63)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.97 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4290.00 mils, 2315.00 mils): Line on Edge.Cuts
+    @(4259.21 mils, 2198.31 mils): Pad 64 [unconnected-(P1-Pin_64-Pad64)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4416.69 mils, 2198.31 mils): Pad 65 [unconnected-(P1-Pin_65-Pad65)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4416.69 mils, 2198.31 mils): Pad 66 [unconnected-(P1-Pin_66-Pad66)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4448.18 mils, 2198.31 mils): Pad 67 [GND] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4448.18 mils, 2198.31 mils): Pad 68 [GND] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4479.68 mils, 2198.31 mils): Pad 69 [unconnected-(P1-Pin_69-Pad69)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4479.68 mils, 2198.31 mils): Pad 70 [unconnected-(P1-Pin_70-Pad70)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4511.17 mils, 2198.31 mils): Pad 71 [GND] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4511.17 mils, 2198.31 mils): Pad 72 [GND] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4542.67 mils, 2198.31 mils): Pad 73 [unconnected-(P1-Pin_73-Pad73)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4542.67 mils, 2198.31 mils): Pad 74 [unconnected-(P1-Pin_74-Pad74)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4574.17 mils, 2198.31 mils): Pad 75 [unconnected-(P1-Pin_75-Pad75)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4574.17 mils, 2198.31 mils): Pad 76 [unconnected-(P1-Pin_76-Pad76)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4605.66 mils, 2198.31 mils): Pad 77 [unconnected-(P1-Pin_77-Pad77)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4605.66 mils, 2198.31 mils): Pad 78 [unconnected-(P1-Pin_78-Pad78)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4637.16 mils, 2198.31 mils): Pad 79 [unconnected-(P1-Pin_79-Pad79)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4637.16 mils, 2198.31 mils): Pad 80 [unconnected-(P1-Pin_80-Pad80)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4668.65 mils, 2198.31 mils): Pad 81 [GND] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4668.65 mils, 2198.31 mils): Pad 82 [GND] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4700.15 mils, 2198.31 mils): Pad 83 [unconnected-(P1-Pin_83-Pad83)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4700.15 mils, 2198.31 mils): Pad 84 [unconnected-(P1-Pin_84-Pad84)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4731.65 mils, 2198.31 mils): Pad 85 [unconnected-(P1-Pin_85-Pad85)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4731.65 mils, 2198.31 mils): Pad 86 [unconnected-(P1-Pin_86-Pad86)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4763.14 mils, 2198.31 mils): Pad 87 [unconnected-(P1-Pin_87-Pad87)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4763.14 mils, 2198.31 mils): Pad 88 [unconnected-(P1-Pin_88-Pad88)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4794.64 mils, 2198.31 mils): Pad 89 [unconnected-(P1-Pin_89-Pad89)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4794.64 mils, 2198.31 mils): Pad 90 [unconnected-(P1-Pin_90-Pad90)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4826.13 mils, 2198.31 mils): Pad 91 [unconnected-(P1-Pin_91-Pad91)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4826.13 mils, 2198.31 mils): Pad 92 [unconnected-(P1-Pin_92-Pad92)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4857.63 mils, 2198.31 mils): Pad 93 [unconnected-(P1-Pin93-Pad93)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4857.63 mils, 2198.31 mils): Pad 94 [unconnected-(P1-Pin_94-Pad94)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4889.13 mils, 2198.31 mils): Pad 95 [unconnected-(P1-Pin_95-Pad95)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4889.13 mils, 2198.31 mils): Pad 96 [unconnected-(P1-Pin_96-Pad96)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4920.62 mils, 2198.31 mils): Pad 97 [/VBATT] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4920.62 mils, 2198.31 mils): Pad 98 [/VBATT] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4952.12 mils, 2198.31 mils): Pad 99 [/VBATT] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4952.12 mils, 2198.31 mils): Pad 100 [/VBATT] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4983.61 mils, 2198.31 mils): Pad 101 [unconnected-(P1-Pin_101-Pad101)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(4983.61 mils, 2198.31 mils): Pad 102 [unconnected-(P1-Pin_102-Pad102)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5015.11 mils, 2198.31 mils): Pad 103 [GND] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5015.11 mils, 2198.31 mils): Pad 104 [GND] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5046.61 mils, 2198.31 mils): Pad 105 [unconnected-(P1-Pin_105-Pad105)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5046.61 mils, 2198.31 mils): Pad 106 [unconnected-(P1-Pin_106-Pad106)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5078.10 mils, 2198.31 mils): Pad 107 [unconnected-(P1-Pin_107-Pad107)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5078.10 mils, 2198.31 mils): Pad 108 [unconnected-(P1-Pin_108-Pad108)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5109.60 mils, 2198.31 mils): Pad 109 [unconnected-(P1-Pin_109-Pad109)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5109.60 mils, 2198.31 mils): Pad 110 [unconnected-(P1-Pin_110-Pad110)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5141.09 mils, 2198.31 mils): Pad 111 [unconnected-(P1-Pin_111-Pad111)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5141.09 mils, 2198.31 mils): Pad 112 [unconnected-(P1-Pin_112-Pad112)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5172.59 mils, 2198.31 mils): Pad 113 [unconnected-(P1-Pin_113-Pad113)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5172.59 mils, 2198.31 mils): Pad 114 [unconnected-(P1-Pin_114-Pad114)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5204.09 mils, 2198.31 mils): Pad 115 [unconnected-(P1-Pin_115-Pad115)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5204.09 mils, 2198.31 mils): Pad 116 [unconnected-(P1-Pin_116-Pad116)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5235.58 mils, 2198.31 mils): Pad 117 [unconnected-(P1-Pin_117-Pad117)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5235.58 mils, 2198.31 mils): Pad 118 [unconnected-(P1-Pin_118-Pad118)] of P1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5267.08 mils, 2198.31 mils): Pad 119 [unconnected-(P1-Pin_119-Pad119)] of P1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; Severity: warning
+    @(4385.00 mils, 2104.00 mils): Line on Edge.Cuts
+    @(5267.08 mils, 2198.31 mils): Pad 120 [unconnected-(P1-Pin_120-Pad120)] of P1 on F.Cu
+[lib_footprint_mismatch]: Footprint 'APA2107x' does not match copy in library 'SierraLobo'.
+    Local override; Severity: warning
+    @(2880.00 mils, 2060.00 mils): Footprint LED1
+[lib_footprint_mismatch]: Footprint 'APA2107x' does not match copy in library 'SierraLobo'.
+    Local override; Severity: warning
+    @(3100.00 mils, 2060.00 mils): Footprint LED2
+[lib_footprint_mismatch]: Footprint 'APA2107x' does not match copy in library 'SierraLobo'.
+    Local override; Severity: warning
+    @(2825.00 mils, 2060.00 mils): Footprint LED4
+[lib_footprint_mismatch]: Footprint 'APA2107x' does not match copy in library 'SierraLobo'.
+    Local override; Severity: warning
+    @(2975.00 mils, 2060.00 mils): Footprint LED3
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(5220.00 mils, 3570.00 mils): PCB Text '3V3A' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(4185.00 mils, 3625.00 mils): PCB Text '3V3D' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(4595.00 mils, 3625.00 mils): PCB Text '5VA' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(5075.00 mils, 3520.00 mils): PCB Text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(5155.00 mils, 2935.00 mils): PCB Text 'VAA' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3110.00 mils, 3255.00 mils): PCB Text 'drive card' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3885.00 mils, 5820.00 mils): PCB Text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(5740.00 mils, 3370.00 mils): PCB Text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(6020.00 mils, 5540.00 mils): PCB Text 'Z MTQ' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(5780.00 mils, 4140.00 mils): PCB Text 'X MTQ' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3060.00 mils, 3435.00 mils): PCB Text 'CH 6/23' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3770.00 mils, 5110.00 mils): PCB Text 'RX' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3770.00 mils, 5440.00 mils): PCB Text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3050.00 mils, 3165.00 mils): PCB Text 'magnetorqer' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(2740.00 mils, 3535.00 mils): PCB Text 'GND' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(3060.00 mils, 3340.00 mils): PCB Text 'RD21-6005 REV A' on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; Severity: warning
+    @(6025.00 mils, 4805.00 mils): PCB Text 'Y MTQ' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(5510.00 mils, 5110.00 mils): Reference 'R111'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(4230.00 mils, 4140.00 mils): Reference 'R57'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(5300.00 mils, 5110.00 mils): Reference 'R108'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(5440.00 mils, 5110.00 mils): Reference 'R110'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(4230.00 mils, 5580.00 mils): Reference 'R101'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(5370.00 mils, 5110.00 mils): Reference 'R109'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(4585.00 mils, 5395.00 mils): Reference 'R102'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(3145.00 mils, 2145.00 mils): Reference 'LED2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(3890.00 mils, 2770.00 mils): Reference 'R21'
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(4668.65 mils, 2274.38 mils): Track [GND] on F.Cu, length 76.06 mils
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(4668.65 mils, 2274.38 mils): Track [GND] on F.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(4668.65 mils, 2274.38 mils): Track [GND] on F.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(4668.65 mils, 2274.38 mils): Track [GND] on F.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 1 [unconnected-(P1-Pin_1-Pad1)] of P1 on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on F.Mask
+    @(3282.83 mils, 2198.31 mils): Pad 2 [unconnected-(P1-Pin_2-Pad2)] of P1 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; Severity: warning
+    @(1023.62 mils, 157.48 mils): Polygon on B.Mask
+    @(5015.11 mils, 2274.38 mils): Track [GND] on B.Cu, length 76.06 mils
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(4690.00 mils, 5355.00 mils): Reference 'C73'
+    @(4670.57 mils, 5375.70 mils): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(4595.00 mils, 3990.00 mils): Reference 'R65'
+    @(4573.35 mils, 3994.06 mils): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(4573.35 mils, 4734.06 mils): Line on F.Silkscreen
+    @(4595.00 mils, 4730.00 mils): Reference 'R84'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(5590.00 mils, 4310.00 mils): Circle on F.Silkscreen
+    @(5510.00 mils, 4260.00 mils): Reference 'C80'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(4610.00 mils, 5465.00 mils): Reference 'R103'
+    @(4585.00 mils, 5395.00 mils): Reference 'R102'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(4585.00 mils, 5395.00 mils): Reference 'R102'
+    @(4629.43 mils, 5375.70 mils): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(5300.00 mils, 5110.00 mils): Reference 'R108'
+    @(5330.00 mils, 5010.00 mils): Reference 'TP25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(5300.00 mils, 5110.00 mils): Reference 'R108'
+    @(5240.00 mils, 5035.00 mils): Circle on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
